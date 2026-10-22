@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-22",
+  "exit_code": 0,
+  "generated_at": "2026-10-22T14:07:17Z",
+  "monitors": {
+    "kill-trigger": {
+      "sources": [
+        {
+          "id": "agt-commits",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "agt-releases",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "cf-blog",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "cf-changelog",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "BASELINE"
+    },
+    "mcp-registry": {
+      "sources": [
+        {
+          "id": "mcp-commits",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "mcp-pulls-updated",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "BASELINE"
+    },
+    "record": {
+      "checks": {
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true
+      },
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "sources": [
+        {
+          "id": "argentum-core-commits",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "argentum-core-releases",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "BASELINE"
+    }
+  },
+  "previous_date": null,
+  "schema": "ho-radar-summary/1"
+}

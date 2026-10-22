@@ -1,0 +1,1535 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T14:07:17Z",
+  "schema": "ho-radar-snapshot/1",
+  "sources": [
+    {
+      "data": {
+        "items": [
+          {
+            "date": "2026-10-22T07:45:09Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/7b22c59cef3d10e4a4031bae2d84c609f108e061",
+            "sha": "7b22c59cef3d10e4a4031bae2d84c609f108e061"
+          },
+          {
+            "date": "2026-10-22T06:50:30Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/90149ab2d7230d67ecb9b6baf1c0decfcfd828e2",
+            "sha": "90149ab2d7230d67ecb9b6baf1c0decfcfd828e2"
+          },
+          {
+            "date": "2026-10-22T06:44:25Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/7e937e6e3e6dbe1a211b8eaa326f8618e9d80ffc",
+            "sha": "7e937e6e3e6dbe1a211b8eaa326f8618e9d80ffc"
+          },
+          {
+            "date": "2026-10-21T20:41:58Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/9c85646570e837aaa4d1709044ee2e10f2fefbf8",
+            "sha": "9c85646570e837aaa4d1709044ee2e10f2fefbf8"
+          },
+          {
+            "date": "2026-10-21T18:50:13Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/8e51b1c38db609ef21b582fc608aaa4ce347edd7",
+            "sha": "8e51b1c38db609ef21b582fc608aaa4ce347edd7"
+          },
+          {
+            "date": "2026-10-21T07:49:54Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/6a8c12b733c852db8902e64aa8d8dcbb2fa0f584",
+            "sha": "6a8c12b733c852db8902e64aa8d8dcbb2fa0f584"
+          },
+          {
+            "date": "2026-10-21T05:50:42Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/e67fba7f96b5a7060de94df7eb21832f8ae8dedc",
+            "sha": "e67fba7f96b5a7060de94df7eb21832f8ae8dedc"
+          },
+          {
+            "date": "2026-10-20T21:38:47Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/e9ccebe2dd2f9a7e9ebc82108a313f21cef6acb2",
+            "sha": "e9ccebe2dd2f9a7e9ebc82108a313f21cef6acb2"
+          },
+          {
+            "date": "2026-10-20T16:25:07Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/3c162e7f7b6109b498846f68e9c6c266bb8071f6",
+            "sha": "3c162e7f7b6109b498846f68e9c6c266bb8071f6"
+          },
+          {
+            "date": "2026-10-20T15:43:33Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/de16e71a3c3977458081117dd84c604d079347bd",
+            "sha": "de16e71a3c3977458081117dd84c604d079347bd"
+          },
+          {
+            "date": "2026-10-20T15:43:20Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/edc336afdf5cc0ce03e627649dd198f4dedc1fe1",
+            "sha": "edc336afdf5cc0ce03e627649dd198f4dedc1fe1"
+          },
+          {
+            "date": "2026-10-20T15:43:05Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2f735429030d18e1480b6ac0217ccffb6b17a530",
+            "sha": "2f735429030d18e1480b6ac0217ccffb6b17a530"
+          },
+          {
+            "date": "2026-10-20T14:33:26Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/bb9fd0df2aed2969a403b6d083c34185cad0eb04",
+            "sha": "bb9fd0df2aed2969a403b6d083c34185cad0eb04"
+          },
+          {
+            "date": "2026-10-20T14:22:23Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/36b4c0d2c009032b2ebb3677ca1cc8ed088c1f4f",
+            "sha": "36b4c0d2c009032b2ebb3677ca1cc8ed088c1f4f"
+          },
+          {
+            "date": "2026-10-20T14:22:09Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/38fc8384400f60d48a7a9ffe7c4d8fe2f4435432",
+            "sha": "38fc8384400f60d48a7a9ffe7c4d8fe2f4435432"
+          },
+          {
+            "date": "2026-10-20T14:21:47Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/bd91b33054f9c04e0a134b23694575ff98c70a03",
+            "sha": "bd91b33054f9c04e0a134b23694575ff98c70a03"
+          },
+          {
+            "date": "2026-10-20T14:21:31Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/13ec63cde534e4b0521a35a3bc83753a3ed3cbf5",
+            "sha": "13ec63cde534e4b0521a35a3bc83753a3ed3cbf5"
+          },
+          {
+            "date": "2026-10-20T14:21:18Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/c5cff2f584f887adfa4e33212210abdb6499fe92",
+            "sha": "c5cff2f584f887adfa4e33212210abdb6499fe92"
+          },
+          {
+            "date": "2026-10-20T09:46:32Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/94b3f9653437ee4c5d094c70e5a23aff05fc471a",
+            "sha": "94b3f9653437ee4c5d094c70e5a23aff05fc471a"
+          },
+          {
+            "date": "2026-10-20T09:46:19Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/9a278cd22f3c8a7f7d2658c9d74ee64a7f119717",
+            "sha": "9a278cd22f3c8a7f7d2658c9d74ee64a7f119717"
+          },
+          {
+            "date": "2026-10-20T09:46:04Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/b4c10fd86c7342775f2ce49823c38c164bd896c0",
+            "sha": "b4c10fd86c7342775f2ce49823c38c164bd896c0"
+          },
+          {
+            "date": "2026-10-20T09:45:51Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/356a4a4784b0b70e9570fedfce682437030bf9a2",
+            "sha": "356a4a4784b0b70e9570fedfce682437030bf9a2"
+          },
+          {
+            "date": "2026-10-20T09:45:38Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2ff1bce0af6d4c3a217b3d3f276c8bb54a13a858",
+            "sha": "2ff1bce0af6d4c3a217b3d3f276c8bb54a13a858"
+          },
+          {
+            "date": "2026-10-20T09:45:24Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/26eb7089f86a9944db3b6cfd673d6b4f4609b3e5",
+            "sha": "26eb7089f86a9944db3b6cfd673d6b4f4609b3e5"
+          },
+          {
+            "date": "2026-10-20T09:45:10Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/79fdc6878f9f15b07b50411e3e93caecf0fb0dfc",
+            "sha": "79fdc6878f9f15b07b50411e3e93caecf0fb0dfc"
+          },
+          {
+            "date": "2026-10-20T09:44:36Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2cb1fcdcc0fb64cf0cc6d90fed804705b121ed23",
+            "sha": "2cb1fcdcc0fb64cf0cc6d90fed804705b121ed23"
+          },
+          {
+            "date": "2026-10-20T09:43:54Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/85dad21d402c30e73322e224c49212efe092a99c",
+            "sha": "85dad21d402c30e73322e224c49212efe092a99c"
+          },
+          {
+            "date": "2026-10-20T09:43:29Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/71f4b5085f5a95106793b352d90f54d806f0ae91",
+            "sha": "71f4b5085f5a95106793b352d90f54d806f0ae91"
+          },
+          {
+            "date": "2026-10-20T09:43:16Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/70eb600a6567bbbb598fe65275e45f27a9a170ee",
+            "sha": "70eb600a6567bbbb598fe65275e45f27a9a170ee"
+          },
+          {
+            "date": "2026-10-20T09:43:03Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/4bfbe823367763255de1eaa16529f1ba55bd06d6",
+            "sha": "4bfbe823367763255de1eaa16529f1ba55bd06d6"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "agt-commits",
+      "kind": "gh_commits",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "kill-trigger",
+      "status": "OK",
+      "url": "https://api.github.com/repos/microsoft/agent-governance-toolkit/commits?per_page=30"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "draft": false,
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v4.1.0",
+            "prerelease": false,
+            "published_at": "2026-06-09T23:11:52Z",
+            "tag": "v4.1.0",
+            "title": "v4.1.0"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v4.0.0",
+            "prerelease": false,
+            "published_at": "2026-06-01T21:03:58Z",
+            "tag": "v4.0.0",
+            "title": "v4.0.0"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.7.0",
+            "prerelease": false,
+            "published_at": "2026-05-18T22:29:51Z",
+            "tag": "v3.7.0",
+            "title": "v3.7.0"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.6.0",
+            "prerelease": false,
+            "published_at": "2026-05-18T22:29:42Z",
+            "tag": "v3.6.0",
+            "title": "v3.6.0"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.5.0",
+            "prerelease": false,
+            "published_at": "2026-05-08T00:00:18Z",
+            "tag": "v3.5.0",
+            "title": "v3.5.0"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "agt-releases",
+      "kind": "gh_releases",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "kill-trigger",
+      "status": "OK",
+      "url": "https://api.github.com/repos/microsoft/agent-governance-toolkit/releases?per_page=5"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "date": "2026-10-20T12:34:37Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/0aa0a372c9a2859f708c275ff49e95a7272898ba",
+            "sha": "0aa0a372c9a2859f708c275ff49e95a7272898ba"
+          },
+          {
+            "date": "2026-10-19T15:00:03Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/387faa8ac36b3273cb671b41406c4602f6ac6a89",
+            "sha": "387faa8ac36b3273cb671b41406c4602f6ac6a89"
+          },
+          {
+            "date": "2026-10-18T23:02:18Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/afa86f2ffcab97826113b13329f7accb55c8533f",
+            "sha": "afa86f2ffcab97826113b13329f7accb55c8533f"
+          },
+          {
+            "date": "2026-10-18T17:47:12Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/7ffe8dc8d3f44db52fc40b5bad54bbbeb8c65edb",
+            "sha": "7ffe8dc8d3f44db52fc40b5bad54bbbeb8c65edb"
+          },
+          {
+            "date": "2026-10-18T15:28:12Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/9e28cdd4f84d92ab2d087e22f2c2704716875121",
+            "sha": "9e28cdd4f84d92ab2d087e22f2c2704716875121"
+          },
+          {
+            "date": "2026-10-18T15:17:04Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/0d533508ac886b5b6b0865a0d822fa239de1fa24",
+            "sha": "0d533508ac886b5b6b0865a0d822fa239de1fa24"
+          },
+          {
+            "date": "2026-10-18T13:58:25Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/fcee058367fc7f594bfb45a7490ecfb7751a0f99",
+            "sha": "fcee058367fc7f594bfb45a7490ecfb7751a0f99"
+          },
+          {
+            "date": "2026-10-18T13:24:15Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/48d95a37a3bf3b2a0a232640ed8471bef91ff144",
+            "sha": "48d95a37a3bf3b2a0a232640ed8471bef91ff144"
+          },
+          {
+            "date": "2026-10-18T13:15:54Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/9c9737de0a1b37df1475bbd325aeb5e3373e5858",
+            "sha": "9c9737de0a1b37df1475bbd325aeb5e3373e5858"
+          },
+          {
+            "date": "2026-10-17T00:23:56Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/9468068d207efb9337c0df432139a532c969c8e4",
+            "sha": "9468068d207efb9337c0df432139a532c969c8e4"
+          },
+          {
+            "date": "2026-10-16T17:08:16Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/e918c6c069292b83bd362620d7bd707f04bfba5d",
+            "sha": "e918c6c069292b83bd362620d7bd707f04bfba5d"
+          },
+          {
+            "date": "2026-10-15T17:54:48Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/225a617d4b21e47ed4f37d06177275f76dfb7e46",
+            "sha": "225a617d4b21e47ed4f37d06177275f76dfb7e46"
+          },
+          {
+            "date": "2026-10-11T19:53:01Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/462059af23beb888cbe47b0ee8f79f4e26106e50",
+            "sha": "462059af23beb888cbe47b0ee8f79f4e26106e50"
+          },
+          {
+            "date": "2026-10-11T15:26:15Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/da2361c2204027668ef280a0b235e6fcd012acea",
+            "sha": "da2361c2204027668ef280a0b235e6fcd012acea"
+          },
+          {
+            "date": "2026-10-10T16:37:14Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/7c2b2269bb08032fa1425182967c28e5e6e0148c",
+            "sha": "7c2b2269bb08032fa1425182967c28e5e6e0148c"
+          },
+          {
+            "date": "2026-10-10T16:35:12Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/81a05bb11463643e278533e6a63293723e3fcffe",
+            "sha": "81a05bb11463643e278533e6a63293723e3fcffe"
+          },
+          {
+            "date": "2026-10-08T13:49:56Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/f4d989052bb3a61691b1b156cd6dd655793fea4f",
+            "sha": "f4d989052bb3a61691b1b156cd6dd655793fea4f"
+          },
+          {
+            "date": "2026-10-08T00:19:17Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/d34d0fde60b6afa268df3eca800a73db15a85c0c",
+            "sha": "d34d0fde60b6afa268df3eca800a73db15a85c0c"
+          },
+          {
+            "date": "2026-10-07T22:43:36Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/67be58411a4c5ae9fe4176b881c47a48232fb063",
+            "sha": "67be58411a4c5ae9fe4176b881c47a48232fb063"
+          },
+          {
+            "date": "2026-10-07T22:41:44Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/bcdbd581f72a1fa9983026937b61540daff1f002",
+            "sha": "bcdbd581f72a1fa9983026937b61540daff1f002"
+          },
+          {
+            "date": "2026-10-07T22:13:32Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/2b76f162b577248f067324e8733b155151637ced",
+            "sha": "2b76f162b577248f067324e8733b155151637ced"
+          },
+          {
+            "date": "2026-10-07T01:09:00Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/7b92265d4e1868db1b89e046cdfde02cc07ee5e6",
+            "sha": "7b92265d4e1868db1b89e046cdfde02cc07ee5e6"
+          },
+          {
+            "date": "2026-10-07T01:07:57Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/623ee0a442b9b402e524ae8051bb15dbf4e1f73c",
+            "sha": "623ee0a442b9b402e524ae8051bb15dbf4e1f73c"
+          },
+          {
+            "date": "2026-10-07T01:06:03Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/badcd25f366c6ff59dec0df54cb7d266e6a3c8b6",
+            "sha": "badcd25f366c6ff59dec0df54cb7d266e6a3c8b6"
+          },
+          {
+            "date": "2026-10-07T01:00:31Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/ccece9f61d22cc26fb6c3ca24739a9b04d560ee6",
+            "sha": "ccece9f61d22cc26fb6c3ca24739a9b04d560ee6"
+          },
+          {
+            "date": "2026-10-07T00:56:30Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/8c1308670ef0c6d180c85bf91c6ef57ceb844fee",
+            "sha": "8c1308670ef0c6d180c85bf91c6ef57ceb844fee"
+          },
+          {
+            "date": "2026-10-07T00:55:33Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/febe99b3e0f38275fb7233c1e6b64bc3b46fbfe2",
+            "sha": "febe99b3e0f38275fb7233c1e6b64bc3b46fbfe2"
+          },
+          {
+            "date": "2026-10-07T00:49:41Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/2c02b1738e3da35c371b994cf930936b6fa35586",
+            "sha": "2c02b1738e3da35c371b994cf930936b6fa35586"
+          },
+          {
+            "date": "2026-10-07T00:48:22Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/b67945601de37ace168412eb8822618231e03dfd",
+            "sha": "b67945601de37ace168412eb8822618231e03dfd"
+          },
+          {
+            "date": "2026-10-07T00:44:44Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/giskard09/argentum-core/commit/772d3d0c758df44ee172c0efc4d46614d46c0fca",
+            "sha": "772d3d0c758df44ee172c0efc4d46614d46c0fca"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "argentum-core-commits",
+      "kind": "gh_commits",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "x402-issues",
+      "status": "OK",
+      "url": "https://api.github.com/repos/giskard09/argentum-core/commits?per_page=30"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "draft": false,
+            "html_url": "https://github.com/giskard09/argentum-core/releases/tag/integrator-v1.0",
+            "prerelease": false,
+            "published_at": "2026-06-02T22:42:48Z",
+            "tag": "integrator-v1.0",
+            "title": "First external integrator agreement \u2014 trail committed on mainnet"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/giskard09/argentum-core/releases/tag/delegation-chain-ref-v1.0",
+            "prerelease": false,
+            "published_at": "2026-06-03T12:12:47Z",
+            "tag": "delegation-chain-ref-v1.0",
+            "title": "delegation-chain-ref v1.0 \u2014 multi-hop delegation chain verification"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/giskard09/argentum-core/releases/tag/cross-system-verification-v1.0",
+            "prerelease": false,
+            "published_at": "2026-06-03T12:12:49Z",
+            "tag": "cross-system-verification-v1.0",
+            "title": "cross-system-verification v1.0 \u2014 trustless trail verification"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/giskard09/argentum-core/releases/tag/composition-ref-v1.0",
+            "prerelease": false,
+            "published_at": "2026-06-03T12:12:37Z",
+            "tag": "composition-ref-v1.0",
+            "title": "composition-ref v1.0 \u2014 end-to-end authorization lifecycle"
+          },
+          {
+            "draft": false,
+            "html_url": "https://github.com/giskard09/argentum-core/releases/tag/action-ref-v1.0",
+            "prerelease": false,
+            "published_at": "2026-05-27T22:11:40Z",
+            "tag": "action-ref-v1.0",
+            "title": "action-ref-v1.0"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "argentum-core-releases",
+      "kind": "gh_releases",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "x402-issues",
+      "status": "OK",
+      "url": "https://api.github.com/repos/giskard09/argentum-core/releases?per_page=5"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "guid": "01M5FTVN0D8MSEXMF36ZM9WWD4",
+            "link": "https://blog.cloudflare.com/k-isms/",
+            "pub_date": "Thu, 22 Oct 2026 13:00:00 GMT",
+            "title": "Localizing compliance at scale: achieving South Korea\u2019s ISMS certification"
+          },
+          {
+            "guid": "01M5E1HXVZGTKAKEYZ0KMZQ65Q",
+            "link": "https://blog.cloudflare.com/full-transaction-waf/",
+            "pub_date": "Wed, 21 Oct 2026 14:10:42 GMT",
+            "title": "Introducing full transaction detection for Cloudflare WAF"
+          },
+          {
+            "guid": "01M5FBPW0VHJGHYHGS7CWWKGSP",
+            "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+            "pub_date": "Wed, 21 Oct 2026 13:56:45 GMT",
+            "title": "Cloudflare deploys protections against php2shell vulnerability"
+          },
+          {
+            "guid": "01M5AYSGXBWG00KS9KC299XDR8",
+            "link": "https://blog.cloudflare.com/webmcp-commerce/",
+            "pub_date": "Wed, 21 Oct 2026 13:00:00 GMT",
+            "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents"
+          },
+          {
+            "guid": "01M5DK5J81T0VC8YTBR2FKD8A3",
+            "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+            "pub_date": "Tue, 20 Oct 2026 22:20:16 GMT",
+            "title": "8 eMudhra certificates are compromised. Here's what you need to know"
+          },
+          {
+            "guid": "01M5C833HV3W30PBZZYVMCVRR6",
+            "link": "https://blog.cloudflare.com/typescript-rust-port/",
+            "pub_date": "Tue, 20 Oct 2026 13:00:00 GMT",
+            "title": "Introducing tsrs: A port of TypeScript to Rust"
+          },
+          {
+            "guid": "01M58NMKW6A1DQJNZXH37VZ9JH",
+            "link": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+            "pub_date": "Mon, 19 Oct 2026 19:12:53 GMT",
+            "title": "Cutting our inference bill by 68% by being obsessive about optimization"
+          },
+          {
+            "guid": "01M5AKCKW0449M3Q6FW10XB4K3",
+            "link": "https://blog.cloudflare.com/clairic-extraction-model/",
+            "pub_date": "Mon, 19 Oct 2026 17:48:26 GMT",
+            "title": "Introducing Clairic, a new System One\u00a0class of extraction models"
+          },
+          {
+            "guid": "01M537RHECVHNJPV12N2E54ZR7",
+            "link": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+            "pub_date": "Mon, 19 Oct 2026 13:00:00 GMT",
+            "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities"
+          },
+          {
+            "guid": "01M510YDY2PS6BYR03DF8HHG2D",
+            "link": "https://blog.cloudflare.com/verified-bots-accountability/",
+            "pub_date": "Fri, 16 Oct 2026 13:00:00 GMT",
+            "title": "Continuous accountability for Verified bots"
+          },
+          {
+            "guid": "01M5072CXFWQ88M9NCXZBSPAF2",
+            "link": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+            "pub_date": "Thu, 15 Oct 2026 17:11:12 GMT",
+            "title": "A fully programmable secure web gateway"
+          },
+          {
+            "guid": "01M4EX2BRJ7RNGAPQTBRXWRYT1",
+            "link": "https://blog.cloudflare.com/deploy-with-void/",
+            "pub_date": "Thu, 15 Oct 2026 14:00:00 GMT",
+            "title": "Deploy with Void"
+          },
+          {
+            "guid": "01M4YQC31GRHMR5V2624TPHTH7",
+            "link": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+            "pub_date": "Thu, 15 Oct 2026 13:00:00 GMT",
+            "title": "Cloudflare and OpenAI: Making AI discovery better for everyone"
+          },
+          {
+            "guid": "01M4Y1477Z7DBJHXRZDP6MM2FN",
+            "link": "https://blog.cloudflare.com/yandex-outage/",
+            "pub_date": "Wed, 14 Oct 2026 20:24:19 GMT",
+            "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move"
+          },
+          {
+            "guid": "01M4VK1MXKAPMWG5QXYBFK222G",
+            "link": "https://blog.cloudflare.com/hyperdrive-mysql/",
+            "pub_date": "Wed, 14 Oct 2026 13:00:00 GMT",
+            "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug"
+          },
+          {
+            "guid": "01M4TZM0P3VSCZHV70ZGX58319",
+            "link": "https://blog.cloudflare.com/d1-control-plane/",
+            "pub_date": "Tue, 13 Oct 2026 16:20:18 GMT",
+            "title": "Under the hood, off the hot path: How D1 scales to millions of databases"
+          },
+          {
+            "guid": "01M4RYTJWRQG5ZF619XNRPYAZB",
+            "link": "https://blog.cloudflare.com/rewinding-the-exponential/",
+            "pub_date": "Tue, 13 Oct 2026 15:51:41 GMT",
+            "title": "Rewinding the exponential: How we keep hardware usage down"
+          },
+          {
+            "guid": "01M4HA4SBV0ANTH6C2775H4SSY",
+            "link": "https://blog.cloudflare.com/transformers-on-logpush/",
+            "pub_date": "Mon, 12 Oct 2026 14:44:59 GMT",
+            "title": "Filter, reshape, and redact logs before export with Transformers"
+          },
+          {
+            "guid": "01M4GV0DTKYJTCM5GPYBCME1T4",
+            "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+            "pub_date": "Fri, 09 Oct 2026 18:27:34 GMT",
+            "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash"
+          },
+          {
+            "guid": "01M497Y0BQ6DVED6YT05KTNA6W",
+            "link": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+            "pub_date": "Fri, 09 Oct 2026 13:00:00 GMT",
+            "title": "Introducing on-demand CPU and memory profiling\u00a0with flamegraphs for Workers and Durable Objects"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "cf-blog",
+      "kind": "rss",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "kill-trigger",
+      "status": "OK",
+      "url": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-22-warp-windows-beta/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-22-warp-windows-beta/",
+            "pub_date": "Thu, 22 Oct 2026 13:08:10 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Windows (version 2026.9.1555.1)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-22-warp-macos-beta/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-22-warp-macos-beta/",
+            "pub_date": "Thu, 22 Oct 2026 13:08:01 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for macOS (version 2026.9.1555.1)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-warp-windows-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-warp-windows-ga/",
+            "pub_date": "Wed, 21 Oct 2026 19:42:32 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Windows (version 2026.7.1384.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-warp-macos-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-warp-macos-ga/",
+            "pub_date": "Wed, 21 Oct 2026 19:42:14 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for macOS (version 2026.7.1384.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-createai/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-createai/",
+            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
+            "title": "Agents, Workers AI, AI Gateway - createAI replaces workers-ai-provider and ai-gateway-provider"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-basin-sql-offset/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-basin-sql-offset/",
+            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
+            "title": "Basin SQL, Basin - Basin SQL supports OFFSET"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/",
+            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
+            "title": "WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Managed Ruleset"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/",
+            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
+            "title": "WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Free Ruleset"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/",
+            "pub_date": "Tue, 20 Oct 2026 01:21:08 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Windows (version 2026.8.2115.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-macos-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-macos-ga/",
+            "pub_date": "Tue, 20 Oct 2026 01:20:49 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for macOS (version 2026.8.2115.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-linux-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-linux-ga/",
+            "pub_date": "Tue, 20 Oct 2026 00:55:37 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Linux (version 2026.8.2115.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-think-computer-workspace/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-think-computer-workspace/",
+            "pub_date": "Tue, 20 Oct 2026 00:00:00 GMT",
+            "title": "Agents, Workers - Think agents now use a @[handle]/computer workspace"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-source-maps-on-by-default/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-source-maps-on-by-default/",
+            "pub_date": "Tue, 20 Oct 2026 00:00:00 GMT",
+            "title": "Workers, Cloudflare CLI - Wrangler and cf now upload source maps by default"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/",
+            "pub_date": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Agents - Cloudflare API MCP server now supports step-up authorization"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-19-precursor-monitor-mode/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-19-precursor-monitor-mode/",
+            "pub_date": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Bots - Precursor adds Monitor mode"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-19-cloud-workload-security-beta/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-19-cloud-workload-security-beta/",
+            "pub_date": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Cloud Workload Security - Cloud Workload Security is now available in Beta"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/",
+            "pub_date": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Workers AI - Introducing Clairic: an extraction model for typed values, now on Workers AI"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-19-deepseek-v4.1-flash-workers-ai/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-19-deepseek-v4.1-flash-workers-ai/",
+            "pub_date": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Workers AI - DeepSeek V4.1 Flash 1017 now available on Workers AI"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-17-local-explorer-cron-triggers/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-17-local-explorer-cron-triggers/",
+            "pub_date": "Sat, 17 Oct 2026 00:00:00 GMT",
+            "title": "Workers, Cloudflare CLI - Test Cron Triggers with Local Explorer"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-16-cjk-keyword-search/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-16-cjk-keyword-search/",
+            "pub_date": "Fri, 16 Oct 2026 00:00:00 GMT",
+            "title": "AI Search - AI Search keyword search supports Japanese, Chinese, and Korean queries"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-16-docs-search/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-16-docs-search/",
+            "pub_date": "Fri, 16 Oct 2026 00:00:00 GMT",
+            "title": "Workers, Cloudflare CLI - Search Cloudflare documentation with the Cloudflare CLI"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-16-tunnels-for-platforms-and-50k-routes/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-16-tunnels-for-platforms-and-50k-routes/",
+            "pub_date": "Fri, 16 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare Tunnel, Cloudflare Tunnel for SASE, Cloudflare Mesh, Cloudflare One - 50,000 routes per account and Tunnels for Platforms"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-app-library-custom-applications/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-app-library-custom-applications/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare One, Gateway - Application Library now supports custom applications"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-dlp-custom-validation-workers/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-dlp-custom-validation-workers/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare One - Validate data loss prevention matches with Cloudflare Workers"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-bgp-filter-profiles/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-bgp-filter-profiles/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare WAN, Magic Transit, Cloudflare One - BGP route filtering for IPsec and GRE tunnels"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-gateway-workers-public-beta/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-gateway-workers-public-beta/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare One, Workers, Gateway - Gateway and Workers integration is now in public beta"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-stream-live-webrtc-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-stream-live-webrtc-ga/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Stream - Ultra-low latency live with WebRTC is now Generally Available in Stream"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-15-phonellm-mini-workers-ai/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-15-phonellm-mini-workers-ai/",
+            "pub_date": "Thu, 15 Oct 2026 00:00:00 GMT",
+            "title": "Workers AI, Realtime - Pipecat PhoneLLM Mini now available on Workers AI"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-deny-redirect-account-id/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-deny-redirect-account-id/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "Access, Cloudflare One - Account context in Access deny redirects"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-infrastructure-ssh-session-duration/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-infrastructure-ssh-session-duration/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare One, Access - Infrastructure applications support a configurable session duration"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-nameserver-sets/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-nameserver-sets/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "DNS - Configure Advanced Custom Nameservers with nameserver sets (beta)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-trim-functions/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-trim-functions/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "Rules - Remove surrounding bytes with trim functions"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-emergency-waf-release/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-emergency-waf-release/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "WAF - WAF Release - 2026-10-14 - Emergency"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-14-workers-builds-default-tooling/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-14-workers-builds-default-tooling/",
+            "pub_date": "Wed, 14 Oct 2026 00:00:00 GMT",
+            "title": "Workers - Workers Builds now uses newer versions of Node.js, Python, Go, Bun, and more"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-13-cloudflare-mcp-events/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-13-cloudflare-mcp-events/",
+            "pub_date": "Tue, 13 Oct 2026 00:00:00 GMT",
+            "title": "Agents, Workers - Cloudflare API MCP server sends Workers Issues as MCP Events"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-13-persistent-browser/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-13-persistent-browser/",
+            "pub_date": "Tue, 13 Oct 2026 00:00:00 GMT",
+            "title": "Agents - New persistent browser tool in the Agents SDK, with tabs and logins that last between turns"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-13-audit-logs-v2-view-actions/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-13-audit-logs-v2-view-actions/",
+            "pub_date": "Tue, 13 Oct 2026 00:00:00 GMT",
+            "title": "Audit Logs - Audit Logs v2 now captures view actions"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-13-gateway-dns64-opt-in/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-13-gateway-dns64-opt-in/",
+            "pub_date": "Tue, 13 Oct 2026 00:00:00 GMT",
+            "title": "Gateway, Cloudflare One - Request Gateway DNS64 through DNS locations and EDNS"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-13-core-web-vital-subparts/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-13-core-web-vital-subparts/",
+            "pub_date": "Tue, 13 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare Web Analytics - Deeper Core Web Vitals Diagnostics: LCP & INP Sub-Part Metrics in Real User Monitoring"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-windows-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-windows-ga/",
+            "pub_date": "Mon, 12 Oct 2026 19:28:14 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Windows (version 2026.8.2110.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-macos-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-macos-ga/",
+            "pub_date": "Mon, 12 Oct 2026 19:28:13 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for macOS (version 2026.8.2110.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-linux-ga/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-warp-linux-ga/",
+            "pub_date": "Mon, 12 Oct 2026 19:16:09 GMT",
+            "title": "Cloudflare One Client - Cloudflare One Client for Linux (version 2026.8.2110.0)"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-11-web-fetch/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-11-web-fetch/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "Agents - New web_fetch tool in the Agents SDK for reading webpages and documents, with automatic markdown conversion"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-opencode-harness/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-opencode-harness/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "Agents, Workers - Run OpenCode 2.0 on Cloudflare with the Agents SDK"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-web-search/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-web-search/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "Agents - New web_search tool in the Agents SDK, powered by the Cloudflare Web Search API"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-manual-schema-learning/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-manual-schema-learning/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "API Shield - Run schema learning on demand"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-unified-dashboard-navigation/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-unified-dashboard-navigation/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "Cloudflare One - Unified dashboard navigation for Zero Trust"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-09-18-queues-jurisdictions/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-09-18-queues-jurisdictions/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "Queues - Queues now supports EU, US, and FedRAMP jurisdictions"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-12-waf-release/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-10-12-waf-release/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "WAF - WAF Release - 2026-10-12"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/scheduled-waf-release/",
+            "link": "https://developers.cloudflare.com/changelog/post/scheduled-waf-release/",
+            "pub_date": "Mon, 12 Oct 2026 00:00:00 GMT",
+            "title": "WAF - WAF Release - Scheduled changes for 2026-10-19"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "cf-changelog",
+      "kind": "rss",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "kill-trigger",
+      "status": "OK",
+      "url": "https://developers.cloudflare.com/changelog/rss/index.xml"
+    },
+    {
+      "data": {
+        "chain_head_sequence": 13,
+        "expected_newest_date": "2026-10-21",
+        "failed_steps_count": 0,
+        "late": false,
+        "newest_date": "2026-10-21",
+        "newest_record_sha256": "b5e48557b1cb73d3f1be436301d2d596fe049e4d7d00e1c1fe8a6a4318181ca4",
+        "newest_sequence": 13,
+        "newest_url": "https://headlessoracle.com/record/2026-10-21",
+        "newest_url_status": 200,
+        "ots_failed": 0,
+        "ots_pending": 1,
+        "records": 13,
+        "schema": "ho-record-index/1"
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "ho-record",
+      "kind": "ho_record",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "record",
+      "status": "OK",
+      "url": "https://api.headlessoracle.com/record"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "date": "2026-10-20T20:01:55Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/80041ab0a139a8f4fb3adbc99f7ae9113ea59671",
+            "sha": "80041ab0a139a8f4fb3adbc99f7ae9113ea59671"
+          },
+          {
+            "date": "2026-10-20T00:57:41Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/761239a31f002deab572cd98d717006d2df6d60c",
+            "sha": "761239a31f002deab572cd98d717006d2df6d60c"
+          },
+          {
+            "date": "2026-10-18T02:02:09Z",
+            "hit_terms": [
+              "sep-2133"
+            ],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1155ca460e5097019f32769b38dcba194432e2fb",
+            "sha": "1155ca460e5097019f32769b38dcba194432e2fb"
+          },
+          {
+            "date": "2026-10-16T19:58:12Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9d896a8e2c19eabc636249304fd6ffff836b7c2e",
+            "sha": "9d896a8e2c19eabc636249304fd6ffff836b7c2e"
+          },
+          {
+            "date": "2026-10-15T00:54:40Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/86f6e0c675afea9a8f233e09b6faf566b126086c",
+            "sha": "86f6e0c675afea9a8f233e09b6faf566b126086c"
+          },
+          {
+            "date": "2026-10-14T17:15:05Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ff465f00f097901a6d1b662d57646767057feed3",
+            "sha": "ff465f00f097901a6d1b662d57646767057feed3"
+          },
+          {
+            "date": "2026-10-14T17:14:54Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/6d5598ad886409863eca96855cdbe843365a7baa",
+            "sha": "6d5598ad886409863eca96855cdbe843365a7baa"
+          },
+          {
+            "date": "2026-10-13T19:11:00Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5ea996028df322ce97d1c906731cf8c05a6e268e",
+            "sha": "5ea996028df322ce97d1c906731cf8c05a6e268e"
+          },
+          {
+            "date": "2026-10-13T19:02:08Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b491e56832ce09207d6d7bb2aae186ce55fdf172",
+            "sha": "b491e56832ce09207d6d7bb2aae186ce55fdf172"
+          },
+          {
+            "date": "2026-10-12T16:26:31Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3778656b2e0ba6725035e816fe3085374cbaa736",
+            "sha": "3778656b2e0ba6725035e816fe3085374cbaa736"
+          },
+          {
+            "date": "2026-10-11T04:39:32Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1f520964b295d58494d944f2aea8a5ab51c79f77",
+            "sha": "1f520964b295d58494d944f2aea8a5ab51c79f77"
+          },
+          {
+            "date": "2026-10-11T01:31:58Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4a04acdb151b8d3c6963fa566d9435cdfdc7bd43",
+            "sha": "4a04acdb151b8d3c6963fa566d9435cdfdc7bd43"
+          },
+          {
+            "date": "2026-10-11T01:31:19Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ac653685e5e3082141167a1ca4b8c656bcfa5d83",
+            "sha": "ac653685e5e3082141167a1ca4b8c656bcfa5d83"
+          },
+          {
+            "date": "2026-10-08T15:42:47Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/fea34581fc887898f99c9a661a5702cb4302d76a",
+            "sha": "fea34581fc887898f99c9a661a5702cb4302d76a"
+          },
+          {
+            "date": "2026-10-08T12:57:38Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c518f7a927cff918bce35d3522fcdb046d264d7c",
+            "sha": "c518f7a927cff918bce35d3522fcdb046d264d7c"
+          },
+          {
+            "date": "2026-10-08T07:16:41Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1e837b3efc1ebba4b60881759ea6b2fb644bcaca",
+            "sha": "1e837b3efc1ebba4b60881759ea6b2fb644bcaca"
+          },
+          {
+            "date": "2026-10-07T15:32:03Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9174102eb93895c3416228a6d2ecceb0c9dbfa2c",
+            "sha": "9174102eb93895c3416228a6d2ecceb0c9dbfa2c"
+          },
+          {
+            "date": "2026-10-06T16:14:35Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/cabe6861d4c3cdfd1ef7efc7ad94957c70239617",
+            "sha": "cabe6861d4c3cdfd1ef7efc7ad94957c70239617"
+          },
+          {
+            "date": "2026-10-06T15:40:13Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2ed1b01653ce1899e02d551467e50929f7063fb3",
+            "sha": "2ed1b01653ce1899e02d551467e50929f7063fb3"
+          },
+          {
+            "date": "2026-10-06T14:43:45Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0a11bf68c7ec4473526ec15589f592afcd12d1e8",
+            "sha": "0a11bf68c7ec4473526ec15589f592afcd12d1e8"
+          },
+          {
+            "date": "2026-10-06T14:33:37Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/6517397a32c450affe3dec97b630de8c3fcdf271",
+            "sha": "6517397a32c450affe3dec97b630de8c3fcdf271"
+          },
+          {
+            "date": "2026-10-06T14:02:42Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/83d517dd5f20ee047a9565ef728b6ca2d75edc29",
+            "sha": "83d517dd5f20ee047a9565ef728b6ca2d75edc29"
+          },
+          {
+            "date": "2026-10-05T20:31:16Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/8e12bf3c8f01f374146acfa19b8ece0018bfc86c",
+            "sha": "8e12bf3c8f01f374146acfa19b8ece0018bfc86c"
+          },
+          {
+            "date": "2026-10-05T20:02:51Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/64533d09fb3b197b03aa56a903739f3c746565c0",
+            "sha": "64533d09fb3b197b03aa56a903739f3c746565c0"
+          },
+          {
+            "date": "2026-10-05T19:59:35Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/e85b7ae9ee0d4c2b783f523ecf5ac34f6099102e",
+            "sha": "e85b7ae9ee0d4c2b783f523ecf5ac34f6099102e"
+          },
+          {
+            "date": "2026-10-03T01:52:20Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/75db1e987cbbba6d170315dc99d0dfc440754aef",
+            "sha": "75db1e987cbbba6d170315dc99d0dfc440754aef"
+          },
+          {
+            "date": "2026-10-02T16:54:37Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/db788e34ffc0c7253f099f647a5e25e0396fadfe",
+            "sha": "db788e34ffc0c7253f099f647a5e25e0396fadfe"
+          },
+          {
+            "date": "2026-10-01T12:55:32Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3098fe94caa1b9e0afaaa6d30e040b61d5802471",
+            "sha": "3098fe94caa1b9e0afaaa6d30e040b61d5802471"
+          },
+          {
+            "date": "2026-10-01T12:36:04Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/81d3cb7353658591a4997a4eeadabb051ed322b0",
+            "sha": "81d3cb7353658591a4997a4eeadabb051ed322b0"
+          },
+          {
+            "date": "2026-09-28T22:50:34Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/046fa30efd374370afb87ef830bd788eac5f217e",
+            "sha": "046fa30efd374370afb87ef830bd788eac5f217e"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "mcp-commits",
+      "kind": "gh_commits",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "mcp-registry",
+      "status": "OK",
+      "url": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol/commits?per_page=30"
+    },
+    {
+      "data": {
+        "comments": 1,
+        "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2133",
+        "merged": true,
+        "merged_at": "2026-01-26T23:57:49Z",
+        "number": 2133,
+        "review_comments": 44,
+        "state": "closed",
+        "title": "SEP-2133: Extensions framework for MCP",
+        "updated_at": "2026-07-12T12:11:15Z"
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "mcp-pr-2133",
+      "kind": "gh_pull",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "mcp-registry",
+      "status": "OK",
+      "url": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol/pulls/2133"
+    },
+    {
+      "data": {
+        "items": [
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+            "merged_at": null,
+            "number": 3415,
+            "state": "open",
+            "title": "SEP-3415: Events Extension",
+            "updated_at": "2026-10-22T10:46:42Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3450",
+            "merged_at": null,
+            "number": 3450,
+            "state": "open",
+            "title": "build(deps-dev): bump markdown-it from 14.3.2 to 14.3.3 in the npm_and_yarn group across 1 directory",
+            "updated_at": "2026-10-22T03:50:46Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2633",
+            "merged_at": null,
+            "number": 2633,
+            "state": "open",
+            "title": "SEP-2633: Standard Client-Side Configuration Format - mcp.json",
+            "updated_at": "2026-10-21T17:04:10Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3447",
+            "merged_at": null,
+            "number": 3447,
+            "state": "open",
+            "title": "Update Filesystems WG Charter",
+            "updated_at": "2026-10-21T15:41:53Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3446",
+            "merged_at": null,
+            "number": 3446,
+            "state": "open",
+            "title": "docs(community): add downloads to the File Uploads WG scope",
+            "updated_at": "2026-10-21T15:04:13Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932",
+            "merged_at": null,
+            "number": 1932,
+            "state": "open",
+            "title": "SEP-1932: DPoP Profile for MCP",
+            "updated_at": "2026-10-21T14:57:52Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2778",
+            "merged_at": null,
+            "number": 2778,
+            "state": "open",
+            "title": "SEP-2778: Adding Type Constraints to the MCP",
+            "updated_at": "2026-10-21T09:26:48Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3445",
+            "merged_at": null,
+            "number": 3445,
+            "state": "open",
+            "title": "build(deps-dev): bump vite from 8.3.0 to 8.3.4 in /tools/sep-automation in the npm_and_yarn group across 1 directory",
+            "updated_at": "2026-10-20T20:40:07Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2848",
+            "merged_at": null,
+            "number": 2848,
+            "state": "open",
+            "title": "SEP-2848: Asynchronous Approval for Tool Calls",
+            "updated_at": "2026-10-20T20:12:19Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3440",
+            "merged_at": "2026-10-20T20:01:55Z",
+            "number": 3440,
+            "state": "closed",
+            "title": "SEP: Form the Tasks and Events Working Group and convert the Agents Working Group to an Interest Group",
+            "updated_at": "2026-10-20T20:01:58Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2692",
+            "merged_at": null,
+            "number": 2692,
+            "state": "closed",
+            "title": "SEP-2692: Stdio process lifetime",
+            "updated_at": "2026-10-19T15:14:37Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2028",
+            "merged_at": null,
+            "number": 2028,
+            "state": "open",
+            "title": "SEP-2028: Automatic _meta to HTTP header forwarding for distributed tracing",
+            "updated_at": "2026-10-19T09:16:33Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2487",
+            "merged_at": null,
+            "number": 2487,
+            "state": "open",
+            "title": "SEP-2487: Add execution.requirements field to Tool for preconditions",
+            "updated_at": "2026-10-19T09:16:31Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3444",
+            "merged_at": null,
+            "number": 3444,
+            "state": "open",
+            "title": "build(deps-dev): bump prettier from 3.9.9 to 3.9.10",
+            "updated_at": "2026-10-19T08:08:07Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3443",
+            "merged_at": null,
+            "number": 3443,
+            "state": "open",
+            "title": "build(deps-dev): bump typescript-eslint from 8.71.1 to 8.71.2",
+            "updated_at": "2026-10-19T08:07:58Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3441",
+            "merged_at": null,
+            "number": 3441,
+            "state": "open",
+            "title": "docs(community): restructure community docs (rebase of #3363)",
+            "updated_at": "2026-10-18T06:20:49Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3439",
+            "merged_at": "2026-10-18T02:02:10Z",
+            "number": 3439,
+            "state": "closed",
+            "title": "docs: fix broken SEP-2133 link in SEP-2640",
+            "updated_at": "2026-10-18T02:02:12Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3363",
+            "merged_at": null,
+            "number": 3363,
+            "state": "closed",
+            "title": "docs(community): restructure community docs",
+            "updated_at": "2026-10-18T02:01:26Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2419",
+            "merged_at": null,
+            "number": 2419,
+            "state": "open",
+            "title": "SEP-2419: cache_hint well-known key in CallToolResult._meta",
+            "updated_at": "2026-10-17T15:20:05Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2792",
+            "merged_at": null,
+            "number": 2792,
+            "state": "open",
+            "title": "SEP-2792: Per-Request User Language Preference",
+            "updated_at": "2026-10-17T08:43:49Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2643",
+            "merged_at": null,
+            "number": 2643,
+            "state": "open",
+            "title": "SEP-2643: Structured Authorization Denials",
+            "updated_at": "2026-10-17T13:08:21Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2598",
+            "merged_at": null,
+            "number": 2598,
+            "state": "open",
+            "title": "SEP-2598: Pluggable Transports",
+            "updated_at": "2026-10-15T18:16:07Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3436",
+            "merged_at": "2026-10-15T00:54:41Z",
+            "number": 3436,
+            "state": "closed",
+            "title": "build(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /tools/sep-automation in the npm_and_yarn group across 1 directory",
+            "updated_at": "2026-10-15T00:54:44Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3428",
+            "merged_at": "2026-10-14T17:15:05Z",
+            "number": 3428,
+            "state": "closed",
+            "title": "build(deps-dev): bump typescript-eslint from 8.70.1 to 8.71.1",
+            "updated_at": "2026-10-14T17:15:08Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3429",
+            "merged_at": "2026-10-14T17:14:55Z",
+            "number": 3429,
+            "state": "closed",
+            "title": "build(deps-dev): bump eslint from 10.11.0 to 10.12.0",
+            "updated_at": "2026-10-14T17:14:57Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3398",
+            "merged_at": null,
+            "number": 3398,
+            "state": "open",
+            "title": "SEP-3398: Release Cycle Updates",
+            "updated_at": "2026-10-14T17:14:38Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2631",
+            "merged_at": null,
+            "number": 2631,
+            "state": "closed",
+            "title": "SEP-2631: File Objects and Transfer",
+            "updated_at": "2026-10-14T11:11:27Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3376",
+            "merged_at": "2026-10-13T19:11:01Z",
+            "number": 3376,
+            "state": "closed",
+            "title": "docs(community): rename Primitive Grouping IG to Progressive Disclosure WG",
+            "updated_at": "2026-10-13T19:16:03Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3405",
+            "merged_at": null,
+            "number": 3405,
+            "state": "open",
+            "title": "SEP-3405: Conformance-Driven SDK Tiers",
+            "updated_at": "2026-10-13T16:22:23Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3404",
+            "merged_at": null,
+            "number": 3404,
+            "state": "closed",
+            "title": "docs: remove Sequential Thinking from example servers",
+            "updated_at": "2026-10-13T05:32:48Z"
+          }
+        ]
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "mcp-pulls-updated",
+      "kind": "gh_pulls_list",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "mcp-registry",
+      "status": "OK",
+      "url": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol/pulls?state=all&sort=updated&direction=desc&per_page=30"
+    },
+    {
+      "data": {
+        "closed_at": null,
+        "comments": 3,
+        "html_url": "https://github.com/x402-foundation/x402/issues/2291",
+        "labels": [],
+        "last_comment": {
+          "created_at": "2026-06-23T09:48:43Z",
+          "html_url": "https://github.com/x402-foundation/x402/issues/2291#issuecomment-4777923278",
+          "id": 4777923278
+        },
+        "number": 2291,
+        "state": "open",
+        "title": "x402-signals v0.2.0 (refund + fulfillment patterns) \u2014 Foundation review welcome",
+        "updated_at": "2026-06-23T09:48:43Z"
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "x402-issue-2291",
+      "kind": "gh_issue",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "x402-issues",
+      "status": "OK",
+      "url": "https://api.github.com/repos/x402-foundation/x402/issues/2291"
+    },
+    {
+      "data": {
+        "closed_at": null,
+        "comments": 236,
+        "html_url": "https://github.com/x402-foundation/x402/issues/2332",
+        "labels": [],
+        "last_comment": {
+          "created_at": "2026-10-12T21:48:40Z",
+          "html_url": "https://github.com/x402-foundation/x402/issues/2332#issuecomment-6133230670",
+          "id": 6133230670
+        },
+        "number": 2332,
+        "state": "open",
+        "title": "Post-settlement accountability layer: tamper-evident proof of agent action after payment",
+        "updated_at": "2026-10-12T21:48:59Z"
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "x402-issue-2332",
+      "kind": "gh_issue",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "x402-issues",
+      "status": "OK",
+      "url": "https://api.github.com/repos/x402-foundation/x402/issues/2332"
+    },
+    {
+      "data": {
+        "closed_at": null,
+        "comments": 27,
+        "html_url": "https://github.com/x402-foundation/x402/issues/2357",
+        "labels": [],
+        "last_comment": {
+          "created_at": "2026-06-26T20:52:03Z",
+          "html_url": "https://github.com/x402-foundation/x402/issues/2357#issuecomment-4813348325",
+          "id": 4813348325
+        },
+        "number": 2357,
+        "state": "open",
+        "title": "Proposal: STARK receipt extension for cryptographic payment proof in PAYMENT-RESPONSE",
+        "updated_at": "2026-06-26T20:52:03Z"
+      },
+      "error": null,
+      "http_status": 200,
+      "id": "x402-issue-2357",
+      "kind": "gh_issue",
+      "last_ok_data": null,
+      "last_ok_date": "2026-10-22",
+      "monitor": "x402-issues",
+      "status": "OK",
+      "url": "https://api.github.com/repos/x402-foundation/x402/issues/2357"
+    }
+  ]
+}
