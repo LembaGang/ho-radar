@@ -1,0 +1,12 @@
+{
+ "closed_at": null,
+ "comments": 27,
+ "created_at": "2026-05-18T19:58:33Z",
+ "html_url": "https://github.com/x402-foundation/x402/issues/2357",
+ "id": 4472153889,
+ "labels": [],
+ "number": 2357,
+ "state": "open",
+ "title": "Proposal: STARK receipt extension for cryptographic payment proof in PAYMENT-RESPONSE",
+ "updated_at": "2026-06-26T20:52:03Z"
+}

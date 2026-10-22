@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Cloudflare changelogs</title>
+    <description>Updates to various Cloudflare products</description>
+    <link>https://developers.cloudflare.com/changelog/</link>
+    <item>
+      <title>Cloudflare One Client - Cloudflare One Client for Windows (version 2026.7.1384.0)</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-warp-windows-ga/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-warp-windows-ga/</guid>
+      <pubDate>Wed, 21 Oct 2026 19:42:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare One Client - Cloudflare One Client for macOS (version 2026.7.1384.0)</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-warp-macos-ga/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-warp-macos-ga/</guid>
+      <pubDate>Wed, 21 Oct 2026 19:42:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Agents, Workers AI, AI Gateway - createAI replaces workers-ai-provider and ai-gateway-provider</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-createai/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-createai/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Basin SQL, Basin - Basin SQL supports OFFSET</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-basin-sql-offset/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-basin-sql-offset/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Managed Ruleset</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Free Ruleset</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare One Client - Cloudflare One Client for Windows (version 2026.8.2115.0)</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/</guid>
+      <pubDate>Tue, 20 Oct 2026 01:21:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare One Client - Cloudflare One Client for macOS (version 2026.8.2115.0)</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-20-warp-macos-ga/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-20-warp-macos-ga/</guid>
+      <pubDate>Tue, 20 Oct 2026 01:20:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare One Client - Cloudflare One Client for Linux (version 2026.8.2115.0)</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-20-warp-linux-ga/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-20-warp-linux-ga/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:55:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Agents, Workers - Think agents now use a @[handle]/computer workspace</title>
+      <link>https://developers.cloudflare.com/changelog/post/2026-10-20-think-computer-workspace/</link>
+      <guid isPermaLink="true">https://developers.cloudflare.com/changelog/post/2026-10-20-think-computer-workspace/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

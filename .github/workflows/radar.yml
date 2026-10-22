@@ -1,0 +1,68 @@
+name: radar
+
+on:
+  schedule:
+    # 09:37Z daily: the daily record of the previous UTC day is generated at
+    # about 09:01Z, so this runs after that publication, and off the hour
+    # because GitHub delays top-of-hour schedules.
+    - cron: '37 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1, tag commit read from the GitHub API 2026-10-22T13:12Z
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Python version
+        run: python3 --version
+
+      - name: Tests (must pass before collecting)
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Collect
+        id: collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          python3 -m radar.collect --data-dir data
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit and push
+        if: ${{ always() && steps.collect.outcome != 'skipped' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            d=$(python3 -c "import json; print(json.load(open('data/latest.json'))['date'])")
+            git commit -m "radar $d"
+            git pull --rebase -q origin main
+            git push
+          fi
+
+      - name: Fail the job when collect did not return 0
+        if: ${{ always() }}
+        env:
+          COLLECT_CODE: ${{ steps.collect.outputs.code }}
+        run: |
+          echo "collect exit code: '${COLLECT_CODE}'"
+          if [ "${COLLECT_CODE}" != "0" ]; then
+            exit 1
+          fi

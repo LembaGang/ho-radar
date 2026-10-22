@@ -1,0 +1,242 @@
+[
+ {
+  "commit": {
+   "date": "2026-10-22T07:45:09Z",
+   "message": "fix(agent-sandbox): give Docker checkpoints a valid repository for any agent id (#4370)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/7b22c59cef3d10e4a4031bae2d84c609f108e061",
+  "sha": "7b22c59cef3d10e4a4031bae2d84c609f108e061"
+ },
+ {
+  "commit": {
+   "date": "2026-10-22T06:50:30Z",
+   "message": "fix(agent-runtime): report paused Docker containers as stopped, not failed (#4410)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/90149ab2d7230d67ecb9b6baf1c0decfcfd828e2",
+  "sha": "90149ab2d7230d67ecb9b6baf1c0decfcfd828e2"
+ },
+ {
+  "commit": {
+   "date": "2026-10-22T06:44:25Z",
+   "message": "fix(agent-sandbox): flag os.posix_spawn and asyncio subprocesses in the code scanner (#4369)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/7e937e6e3e6dbe1a211b8eaa326f8618e9d80ffc",
+  "sha": "7e937e6e3e6dbe1a211b8eaa326f8618e9d80ffc"
+ },
+ {
+  "commit": {
+   "date": "2026-10-21T20:41:58Z",
+   "message": "fix(a2a-protocol): keep message content types in TaskEnvelope.from_dict (#4408)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/9c85646570e837aaa4d1709044ee2e10f2fefbf8",
+  "sha": "9c85646570e837aaa4d1709044ee2e10f2fefbf8"
+ },
+ {
+  "commit": {
+   "date": "2026-10-21T18:50:13Z",
+   "message": "fix(agent-lightning): do not count violation summaries as emitted spans (#4365)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/8e51b1c38db609ef21b582fc608aaa4ce347edd7",
+  "sha": "8e51b1c38db609ef21b582fc608aaa4ce347edd7"
+ },
+ {
+  "commit": {
+   "date": "2026-10-21T07:49:54Z",
+   "message": "fix(agent-learning): check role and permissions in ExcessivePrivilegeEvaluation (#4364)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/6a8c12b733c852db8902e64aa8d8dcbb2fa0f584",
+  "sha": "6a8c12b733c852db8902e64aa8d8dcbb2fa0f584"
+ },
+ {
+  "commit": {
+   "date": "2026-10-21T05:50:42Z",
+   "message": "fix(agent-lightning): count a successful episode once in GovernedEnvironment metrics (#4360)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/e67fba7f96b5a7060de94df7eb21832f8ae8dedc",
+  "sha": "e67fba7f96b5a7060de94df7eb21832f8ae8dedc"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T21:38:47Z",
+   "message": "fix(agent-os): prevent invisible-character evasion in conversation guardian (#4124)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/e9ccebe2dd2f9a7e9ebc82108a313f21cef6acb2",
+  "sha": "e9ccebe2dd2f9a7e9ebc82108a313f21cef6acb2"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T16:25:07Z",
+   "message": "docs: update MAINTAINERS.md to the current maintainer set (#4368)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/3c162e7f7b6109b498846f68e9c6c266bb8071f6",
+  "sha": "3c162e7f7b6109b498846f68e9c6c266bb8071f6"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T15:43:33Z",
+   "message": "chore(deps-dev): Bump hono (#4405)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/de16e71a3c3977458081117dd84c604d079347bd",
+  "sha": "de16e71a3c3977458081117dd84c604d079347bd"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T15:43:20Z",
+   "message": "chore(deps): Bump hono (#4404)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/edc336afdf5cc0ce03e627649dd198f4dedc1fe1",
+  "sha": "edc336afdf5cc0ce03e627649dd198f4dedc1fe1"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T15:43:05Z",
+   "message": "chore(deps): Bump rustls in /policy-engine/examples/coding_agent/app (#4403)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2f735429030d18e1480b6ac0217ccffb6b17a530",
+  "sha": "2f735429030d18e1480b6ac0217ccffb6b17a530"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:33:26Z",
+   "message": "fix(agent-discovery): detect llama-index and pyautogen in GitHub dependency files (#4367)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/bb9fd0df2aed2969a403b6d083c34185cad0eb04",
+  "sha": "bb9fd0df2aed2969a403b6d083c34185cad0eb04"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:22:23Z",
+   "message": "chore(deps): Bump aiohttp in /agent-governance-python/agent-hypervisor (#4399)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/36b4c0d2c009032b2ebb3677ca1cc8ed088c1f4f",
+  "sha": "36b4c0d2c009032b2ebb3677ca1cc8ed088c1f4f"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:22:09Z",
+   "message": "chore(deps-dev): Update black requirement (#4390)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/38fc8384400f60d48a7a9ffe7c4d8fe2f4435432",
+  "sha": "38fc8384400f60d48a7a9ffe7c4d8fe2f4435432"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:21:47Z",
+   "message": "chore(deps-dev): Update fastapi requirement (#4389)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/bd91b33054f9c04e0a134b23694575ff98c70a03",
+  "sha": "bd91b33054f9c04e0a134b23694575ff98c70a03"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:21:31Z",
+   "message": "chore(deps-dev): Update hypothesis requirement (#4387)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/13ec63cde534e4b0521a35a3bc83753a3ed3cbf5",
+  "sha": "13ec63cde534e4b0521a35a3bc83753a3ed3cbf5"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T14:21:18Z",
+   "message": "chore(deps-dev): Bump @[handle]/eslint-plugin (#4385)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/c5cff2f584f887adfa4e33212210abdb6499fe92",
+  "sha": "c5cff2f584f887adfa4e33212210abdb6499fe92"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:46:32Z",
+   "message": "chore(deps-dev): Update fastapi requirement (#4397)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/94b3f9653437ee4c5d094c70e5a23aff05fc471a",
+  "sha": "94b3f9653437ee4c5d094c70e5a23aff05fc471a"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:46:19Z",
+   "message": "chore(deps-dev): Update pydantic requirement (#4396)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/9a278cd22f3c8a7f7d2658c9d74ee64a7f119717",
+  "sha": "9a278cd22f3c8a7f7d2658c9d74ee64a7f119717"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:46:04Z",
+   "message": "chore(deps): Update pydantic requirement (#4395)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/b4c10fd86c7342775f2ce49823c38c164bd896c0",
+  "sha": "b4c10fd86c7342775f2ce49823c38c164bd896c0"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:45:51Z",
+   "message": "chore(deps-dev): Update fastapi requirement (#4394)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/356a4a4784b0b70e9570fedfce682437030bf9a2",
+  "sha": "356a4a4784b0b70e9570fedfce682437030bf9a2"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:45:38Z",
+   "message": "chore(deps-dev): Update hypothesis requirement (#4393)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2ff1bce0af6d4c3a217b3d3f276c8bb54a13a858",
+  "sha": "2ff1bce0af6d4c3a217b3d3f276c8bb54a13a858"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:45:24Z",
+   "message": "chore(deps-dev): Update fastapi requirement (#4392)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/26eb7089f86a9944db3b6cfd673d6b4f4609b3e5",
+  "sha": "26eb7089f86a9944db3b6cfd673d6b4f4609b3e5"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:45:10Z",
+   "message": "chore(deps-dev): Update pydantic requirement (#4391)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/79fdc6878f9f15b07b50411e3e93caecf0fb0dfc",
+  "sha": "79fdc6878f9f15b07b50411e3e93caecf0fb0dfc"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:44:36Z",
+   "message": "chore(deps-dev): Update pydantic requirement (#4388)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/2cb1fcdcc0fb64cf0cc6d90fed804705b121ed23",
+  "sha": "2cb1fcdcc0fb64cf0cc6d90fed804705b121ed23"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:43:54Z",
+   "message": "chore(deps-dev): Bump the python-dev-tooling group across 5 directories with 1 update (#4386)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/85dad21d402c30e73322e224c49212efe092a99c",
+  "sha": "85dad21d402c30e73322e224c49212efe092a99c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:43:29Z",
+   "message": "chore(deps): Bump express (#4384)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/71f4b5085f5a95106793b352d90f54d806f0ae91",
+  "sha": "71f4b5085f5a95106793b352d90f54d806f0ae91"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:43:16Z",
+   "message": "chore(deps-dev): Bump the javascript-dev-tooling group across 3 directories with 1 update (#4383)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/70eb600a6567bbbb598fe65275e45f27a9a170ee",
+  "sha": "70eb600a6567bbbb598fe65275e45f27a9a170ee"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T09:43:03Z",
+   "message": "chore(deps): Bump xunit.runner.visualstudio from 4.0.0 to 4.0.1 (#4382)"
+  },
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/4bfbe823367763255de1eaa16529f1ba55bd06d6",
+  "sha": "4bfbe823367763255de1eaa16529f1ba55bd06d6"
+ }
+]

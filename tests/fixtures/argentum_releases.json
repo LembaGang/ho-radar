@@ -1,0 +1,42 @@
+[
+ {
+  "draft": false,
+  "html_url": "https://github.com/giskard09/argentum-core/releases/tag/integrator-v1.0",
+  "id": 333414151,
+  "prerelease": false,
+  "published_at": "2026-06-02T22:42:48Z",
+  "tag_name": "integrator-v1.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/giskard09/argentum-core/releases/tag/delegation-chain-ref-v1.0",
+  "id": 333689537,
+  "prerelease": false,
+  "published_at": "2026-06-03T12:12:47Z",
+  "tag_name": "delegation-chain-ref-v1.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/giskard09/argentum-core/releases/tag/cross-system-verification-v1.0",
+  "id": 333689554,
+  "prerelease": false,
+  "published_at": "2026-06-03T12:12:49Z",
+  "tag_name": "cross-system-verification-v1.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/giskard09/argentum-core/releases/tag/composition-ref-v1.0",
+  "id": 333689437,
+  "prerelease": false,
+  "published_at": "2026-06-03T12:12:37Z",
+  "tag_name": "composition-ref-v1.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/giskard09/argentum-core/releases/tag/action-ref-v1.0",
+  "id": 330542488,
+  "prerelease": false,
+  "published_at": "2026-05-27T22:11:40Z",
+  "tag_name": "action-ref-v1.0"
+ }
+]

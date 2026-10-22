@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudflare Blog</title>
+    <description>Technical deep dives, product updates, and insights from the teams that are helping to build a better Internet.</description>
+    <link>https://blog.cloudflare.com/</link>
+    <language>en-us</language>
+    <atom:link href="https://blog.cloudflare.com/rss/" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://blog.cloudflare.com/favicon.ico</url>
+      <title>Cloudflare Blog</title>
+      <link>https://blog.cloudflare.com</link>
+    </image>
+    <lastBuildDate>Thu, 22 Oct 2026 11:25:29 GMT</lastBuildDate>
+    <item>
+      <title>Introducing full transaction detection for Cloudflare WAF</title>
+      <link>https://blog.cloudflare.com/full-transaction-waf/</link>
+      <guid isPermaLink="false">01M5E1HXVZGTKAKEYZ0KMZQ65Q</guid>
+      <pubDate>Wed, 21 Oct 2026 14:10:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare deploys protections against php2shell vulnerability</title>
+      <link>https://blog.cloudflare.com/php-vulnerabilities-waf-protection/</link>
+      <guid isPermaLink="false">01M5FBPW0VHJGHYHGS7CWWKGSP</guid>
+      <pubDate>Wed, 21 Oct 2026 13:56:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>How Commerce.com and Cloudflare are getting storefronts ready for AI agents</title>
+      <link>https://blog.cloudflare.com/webmcp-commerce/</link>
+      <guid isPermaLink="false">01M5AYSGXBWG00KS9KC299XDR8</guid>
+      <pubDate>Wed, 21 Oct 2026 13:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>8 eMudhra certificates are compromised. Here's what you need to know</title>
+      <link>https://blog.cloudflare.com/emudhra-certificate-compromise/</link>
+      <guid isPermaLink="false">01M5DK5J81T0VC8YTBR2FKD8A3</guid>
+      <pubDate>Tue, 20 Oct 2026 22:20:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing tsrs: A port of TypeScript to Rust</title>
+      <link>https://blog.cloudflare.com/typescript-rust-port/</link>
+      <guid isPermaLink="false">01M5C833HV3W30PBZZYVMCVRR6</guid>
+      <pubDate>Tue, 20 Oct 2026 13:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cutting our inference bill by 68% by being obsessive about optimization</title>
+      <link>https://blog.cloudflare.com/obsessive-inference-optimization/</link>
+      <guid isPermaLink="false">01M58NMKW6A1DQJNZXH37VZ9JH</guid>
+      <pubDate>Mon, 19 Oct 2026 19:12:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing Clairic, a new System One&#160;class of extraction models</title>
+      <link>https://blog.cloudflare.com/clairic-extraction-model/</link>
+      <guid isPermaLink="false">01M5AKCKW0449M3Q6FW10XB4K3</guid>
+      <pubDate>Mon, 19 Oct 2026 17:48:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities</title>
+      <link>https://blog.cloudflare.com/protect-your-netscaler-gateway/</link>
+      <guid isPermaLink="false">01M537RHECVHNJPV12N2E54ZR7</guid>
+      <pubDate>Mon, 19 Oct 2026 13:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Continuous accountability for Verified bots</title>
+      <link>https://blog.cloudflare.com/verified-bots-accountability/</link>
+      <guid isPermaLink="false">01M510YDY2PS6BYR03DF8HHG2D</guid>
+      <pubDate>Fri, 16 Oct 2026 13:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>A fully programmable secure web gateway</title>
+      <link>https://blog.cloudflare.com/programmable-gateway-dlp/</link>
+      <guid isPermaLink="false">01M5072CXFWQ88M9NCXZBSPAF2</guid>
+      <pubDate>Thu, 15 Oct 2026 17:11:12 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

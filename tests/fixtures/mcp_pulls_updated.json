@@ -1,0 +1,242 @@
+[
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+  "merged_at": null,
+  "number": 3415,
+  "state": "open",
+  "title": "SEP-3415: Events Extension",
+  "updated_at": "2026-10-22T10:46:42Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3450",
+  "merged_at": null,
+  "number": 3450,
+  "state": "open",
+  "title": "build(deps-dev): bump markdown-it from 14.3.2 to 14.3.3 in the npm_and_yarn group across 1 directory",
+  "updated_at": "2026-10-22T03:50:46Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2633",
+  "merged_at": null,
+  "number": 2633,
+  "state": "open",
+  "title": "SEP-2633: Standard Client-Side Configuration Format - mcp.json",
+  "updated_at": "2026-10-21T17:04:10Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3447",
+  "merged_at": null,
+  "number": 3447,
+  "state": "open",
+  "title": "Update Filesystems WG Charter",
+  "updated_at": "2026-10-21T15:41:53Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3446",
+  "merged_at": null,
+  "number": 3446,
+  "state": "open",
+  "title": "docs(community): add downloads to the File Uploads WG scope",
+  "updated_at": "2026-10-21T15:04:13Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932",
+  "merged_at": null,
+  "number": 1932,
+  "state": "open",
+  "title": "SEP-1932: DPoP Profile for MCP",
+  "updated_at": "2026-10-21T14:57:52Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2778",
+  "merged_at": null,
+  "number": 2778,
+  "state": "open",
+  "title": "SEP-2778: Adding Type Constraints to the MCP",
+  "updated_at": "2026-10-21T09:26:48Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3445",
+  "merged_at": null,
+  "number": 3445,
+  "state": "open",
+  "title": "build(deps-dev): bump vite from 8.3.0 to 8.3.4 in /tools/sep-automation in the npm_and_yarn group across 1 directory",
+  "updated_at": "2026-10-20T20:40:07Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2848",
+  "merged_at": null,
+  "number": 2848,
+  "state": "open",
+  "title": "SEP-2848: Asynchronous Approval for Tool Calls",
+  "updated_at": "2026-10-20T20:12:19Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3440",
+  "merged_at": "2026-10-20T20:01:55Z",
+  "number": 3440,
+  "state": "closed",
+  "title": "SEP: Form the Tasks and Events Working Group and convert the Agents Working Group to an Interest Group",
+  "updated_at": "2026-10-20T20:01:58Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2692",
+  "merged_at": null,
+  "number": 2692,
+  "state": "closed",
+  "title": "SEP-2692: Stdio process lifetime",
+  "updated_at": "2026-10-19T15:14:37Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2028",
+  "merged_at": null,
+  "number": 2028,
+  "state": "open",
+  "title": "SEP-2028: Automatic _meta to HTTP header forwarding for distributed tracing",
+  "updated_at": "2026-10-19T09:16:33Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2487",
+  "merged_at": null,
+  "number": 2487,
+  "state": "open",
+  "title": "SEP-2487: Add execution.requirements field to Tool for preconditions",
+  "updated_at": "2026-10-19T09:16:31Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3444",
+  "merged_at": null,
+  "number": 3444,
+  "state": "open",
+  "title": "build(deps-dev): bump prettier from 3.9.9 to 3.9.10",
+  "updated_at": "2026-10-19T08:08:07Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3443",
+  "merged_at": null,
+  "number": 3443,
+  "state": "open",
+  "title": "build(deps-dev): bump typescript-eslint from 8.71.1 to 8.71.2",
+  "updated_at": "2026-10-19T08:07:58Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3441",
+  "merged_at": null,
+  "number": 3441,
+  "state": "open",
+  "title": "docs(community): restructure community docs (rebase of #3363)",
+  "updated_at": "2026-10-18T06:20:49Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3439",
+  "merged_at": "2026-10-18T02:02:10Z",
+  "number": 3439,
+  "state": "closed",
+  "title": "docs: fix broken SEP-2133 link in SEP-2640",
+  "updated_at": "2026-10-18T02:02:12Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3363",
+  "merged_at": null,
+  "number": 3363,
+  "state": "closed",
+  "title": "docs(community): restructure community docs",
+  "updated_at": "2026-10-18T02:01:26Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2419",
+  "merged_at": null,
+  "number": 2419,
+  "state": "open",
+  "title": "SEP-2419: cache_hint well-known key in CallToolResult._meta",
+  "updated_at": "2026-10-17T15:20:05Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2792",
+  "merged_at": null,
+  "number": 2792,
+  "state": "open",
+  "title": "SEP-2792: Per-Request User Language Preference",
+  "updated_at": "2026-10-17T08:43:49Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2643",
+  "merged_at": null,
+  "number": 2643,
+  "state": "open",
+  "title": "SEP-2643: Structured Authorization Denials",
+  "updated_at": "2026-10-17T13:08:21Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2598",
+  "merged_at": null,
+  "number": 2598,
+  "state": "open",
+  "title": "SEP-2598: Pluggable Transports",
+  "updated_at": "2026-10-15T18:16:07Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3436",
+  "merged_at": "2026-10-15T00:54:41Z",
+  "number": 3436,
+  "state": "closed",
+  "title": "build(deps-dev): bump source-map-js from 1.2.1 to 1.2.2 in /tools/sep-automation in the npm_and_yarn group across 1 directory",
+  "updated_at": "2026-10-15T00:54:44Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3428",
+  "merged_at": "2026-10-14T17:15:05Z",
+  "number": 3428,
+  "state": "closed",
+  "title": "build(deps-dev): bump typescript-eslint from 8.70.1 to 8.71.1",
+  "updated_at": "2026-10-14T17:15:08Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3429",
+  "merged_at": "2026-10-14T17:14:55Z",
+  "number": 3429,
+  "state": "closed",
+  "title": "build(deps-dev): bump eslint from 10.11.0 to 10.12.0",
+  "updated_at": "2026-10-14T17:14:57Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3398",
+  "merged_at": null,
+  "number": 3398,
+  "state": "open",
+  "title": "SEP-3398: Release Cycle Updates",
+  "updated_at": "2026-10-14T17:14:38Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2631",
+  "merged_at": null,
+  "number": 2631,
+  "state": "closed",
+  "title": "SEP-2631: File Objects and Transfer",
+  "updated_at": "2026-10-14T11:11:27Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3376",
+  "merged_at": "2026-10-13T19:11:01Z",
+  "number": 3376,
+  "state": "closed",
+  "title": "docs(community): rename Primitive Grouping IG to Progressive Disclosure WG",
+  "updated_at": "2026-10-13T19:16:03Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3405",
+  "merged_at": null,
+  "number": 3405,
+  "state": "open",
+  "title": "SEP-3405: Conformance-Driven SDK Tiers",
+  "updated_at": "2026-10-13T16:22:23Z"
+ },
+ {
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3404",
+  "merged_at": null,
+  "number": 3404,
+  "state": "closed",
+  "title": "docs: remove Sequential Thinking from example servers",
+  "updated_at": "2026-10-13T05:32:48Z"
+ }
+]

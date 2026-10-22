@@ -1,0 +1,242 @@
+[
+ {
+  "commit": {
+   "date": "2026-10-20T20:01:55Z",
+   "message": "Merge pull request #3440"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/80041ab0a139a8f4fb3adbc99f7ae9113ea59671",
+  "sha": "80041ab0a139a8f4fb3adbc99f7ae9113ea59671"
+ },
+ {
+  "commit": {
+   "date": "2026-10-20T00:57:41Z",
+   "message": "Address review: Agents IG scope wording and roster, Tasks scope"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/761239a31f002deab572cd98d717006d2df6d60c",
+  "sha": "761239a31f002deab572cd98d717006d2df6d60c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-18T02:02:09Z",
+   "message": "docs: fix broken SEP-2133 link in SEP-2640 (#3439)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1155ca460e5097019f32769b38dcba194432e2fb",
+  "sha": "1155ca460e5097019f32769b38dcba194432e2fb"
+ },
+ {
+  "commit": {
+   "date": "2026-10-16T19:58:12Z",
+   "message": "Form Tasks and Events WG, convert Agents WG to an Interest Group"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9d896a8e2c19eabc636249304fd6ffff836b7c2e",
+  "sha": "9d896a8e2c19eabc636249304fd6ffff836b7c2e"
+ },
+ {
+  "commit": {
+   "date": "2026-10-15T00:54:40Z",
+   "message": "build(deps-dev): bump source-map-js (#3436)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/86f6e0c675afea9a8f233e09b6faf566b126086c",
+  "sha": "86f6e0c675afea9a8f233e09b6faf566b126086c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-14T17:15:05Z",
+   "message": "build(deps-dev): bump typescript-eslint from 8.70.1 to 8.71.1 (#3428)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ff465f00f097901a6d1b662d57646767057feed3",
+  "sha": "ff465f00f097901a6d1b662d57646767057feed3"
+ },
+ {
+  "commit": {
+   "date": "2026-10-14T17:14:54Z",
+   "message": "build(deps-dev): bump eslint from 10.11.0 to 10.12.0 (#3429)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/6d5598ad886409863eca96855cdbe843365a7baa",
+  "sha": "6d5598ad886409863eca96855cdbe843365a7baa"
+ },
+ {
+  "commit": {
+   "date": "2026-10-13T19:11:00Z",
+   "message": "Merge pull request #3376"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5ea996028df322ce97d1c906731cf8c05a6e268e",
+  "sha": "5ea996028df322ce97d1c906731cf8c05a6e268e"
+ },
+ {
+  "commit": {
+   "date": "2026-10-13T19:02:08Z",
+   "message": "Merge [redacted]"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/b491e56832ce09207d6d7bb2aae186ce55fdf172",
+  "sha": "b491e56832ce09207d6d7bb2aae186ce55fdf172"
+ },
+ {
+  "commit": {
+   "date": "2026-10-12T16:26:31Z",
+   "message": "docs: serve the TypeScript quickstart server with serveStdio (#3427)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3778656b2e0ba6725035e816fe3085374cbaa736",
+  "sha": "3778656b2e0ba6725035e816fe3085374cbaa736"
+ },
+ {
+  "commit": {
+   "date": "2026-10-11T04:39:32Z",
+   "message": "docs: list Linux as a supported Claude Desktop platform (#3426)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1f520964b295d58494d944f2aea8a5ab51c79f77",
+  "sha": "1f520964b295d58494d944f2aea8a5ab51c79f77"
+ },
+ {
+  "commit": {
+   "date": "2026-10-11T01:31:58Z",
+   "message": "Merge pull request #3423"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/4a04acdb151b8d3c6963fa566d9435cdfdc7bd43",
+  "sha": "4a04acdb151b8d3c6963fa566d9435cdfdc7bd43"
+ },
+ {
+  "commit": {
+   "date": "2026-10-11T01:31:19Z",
+   "message": "Merge pull request #3425"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/ac653685e5e3082141167a1ca4b8c656bcfa5d83",
+  "sha": "ac653685e5e3082141167a1ca4b8c656bcfa5d83"
+ },
+ {
+  "commit": {
+   "date": "2026-10-08T15:42:47Z",
+   "message": "docs(fsig): add King Yew Choo (True Primary) as Participant"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/fea34581fc887898f99c9a661a5702cb4302d76a",
+  "sha": "fea34581fc887898f99c9a661a5702cb4302d76a"
+ },
+ {
+  "commit": {
+   "date": "2026-10-08T12:57:38Z",
+   "message": "Merge pull request #3418"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/c518f7a927cff918bce35d3522fcdb046d264d7c",
+  "sha": "c518f7a927cff918bce35d3522fcdb046d264d7c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-08T07:16:41Z",
+   "message": "docs(community): add Governance Working Group charter"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/1e837b3efc1ebba4b60881759ea6b2fb644bcaca",
+  "sha": "1e837b3efc1ebba4b60881759ea6b2fb644bcaca"
+ },
+ {
+  "commit": {
+   "date": "2026-10-07T15:32:03Z",
+   "message": "docs(inspector): link the mcpdo tutorial video"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9174102eb93895c3416228a6d2ecceb0c9dbfa2c",
+  "sha": "9174102eb93895c3416228a6d2ecceb0c9dbfa2c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-06T16:14:35Z",
+   "message": "docs(inspector): show an MRTR conversation grouped in the monitoring sidebar"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/cabe6861d4c3cdfd1ef7efc7ad94957c70239617",
+  "sha": "cabe6861d4c3cdfd1ef7efc7ad94957c70239617"
+ },
+ {
+  "commit": {
+   "date": "2026-10-06T15:40:13Z",
+   "message": "docs(inspector): bring every Inspector page up to date with v2/main"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2ed1b01653ce1899e02d551467e50929f7063fb3",
+  "sha": "2ed1b01653ce1899e02d551467e50929f7063fb3"
+ },
+ {
+  "commit": {
+   "date": "2026-10-06T14:43:45Z",
+   "message": "Merge pull request #2127"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0a11bf68c7ec4473526ec15589f592afcd12d1e8",
+  "sha": "0a11bf68c7ec4473526ec15589f592afcd12d1e8"
+ },
+ {
+  "commit": {
+   "date": "2026-10-06T14:33:37Z",
+   "message": "docs(inspector): list mcpdo below the TUI in the nav"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/6517397a32c450affe3dec97b630de8c3fcdf271",
+  "sha": "6517397a32c450affe3dec97b630de8c3fcdf271"
+ },
+ {
+  "commit": {
+   "date": "2026-10-06T14:02:42Z",
+   "message": "docs(inspector): security page, mcpdo client, secret storage and Docker updates"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/83d517dd5f20ee047a9565ef728b6ca2d75edc29",
+  "sha": "83d517dd5f20ee047a9565ef728b6ca2d75edc29"
+ },
+ {
+  "commit": {
+   "date": "2026-10-05T20:31:16Z",
+   "message": "Merge pull request #3072"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/8e12bf3c8f01f374146acfa19b8ece0018bfc86c",
+  "sha": "8e12bf3c8f01f374146acfa19b8ece0018bfc86c"
+ },
+ {
+  "commit": {
+   "date": "2026-10-05T20:02:51Z",
+   "message": "Merge [redacted]"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/64533d09fb3b197b03aa56a903739f3c746565c0",
+  "sha": "64533d09fb3b197b03aa56a903739f3c746565c0"
+ },
+ {
+  "commit": {
+   "date": "2026-10-05T19:59:35Z",
+   "message": "docs: address review feedback on local server security guide"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/e85b7ae9ee0d4c2b783f523ecf5ac34f6099102e",
+  "sha": "e85b7ae9ee0d4c2b783f523ecf5ac34f6099102e"
+ },
+ {
+  "commit": {
+   "date": "2026-10-03T01:52:20Z",
+   "message": "build(deps-dev): bump the npm_and_yarn group across 1 directory with 2 updates (#3411)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/75db1e987cbbba6d170315dc99d0dfc440754aef",
+  "sha": "75db1e987cbbba6d170315dc99d0dfc440754aef"
+ },
+ {
+  "commit": {
+   "date": "2026-10-02T16:54:37Z",
+   "message": "build(deps-dev): bump undici (#3409)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/db788e34ffc0c7253f099f647a5e25e0396fadfe",
+  "sha": "db788e34ffc0c7253f099f647a5e25e0396fadfe"
+ },
+ {
+  "commit": {
+   "date": "2026-10-01T12:55:32Z",
+   "message": "Merge pull request #3408"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3098fe94caa1b9e0afaaa6d30e040b61d5802471",
+  "sha": "3098fe94caa1b9e0afaaa6d30e040b61d5802471"
+ },
+ {
+  "commit": {
+   "date": "2026-10-01T12:36:04Z",
+   "message": "Add Conformance maintainers to MAINTAINERS.md"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/81d3cb7353658591a4997a4eeadabb051ed322b0",
+  "sha": "81d3cb7353658591a4997a4eeadabb051ed322b0"
+ },
+ {
+  "commit": {
+   "date": "2026-09-28T22:50:34Z",
+   "message": "docs: fix dead external links (#3399)"
+  },
+  "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/046fa30efd374370afb87ef830bd788eac5f217e",
+  "sha": "046fa30efd374370afb87ef830bd788eac5f217e"
+ }
+]

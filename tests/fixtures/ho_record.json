@@ -1,0 +1,87 @@
+{
+ "chain_head": {
+  "entry_hash": "sha256:ba8b417da25176fdf042b1f02a6782d5a20ef1f8ac8ef5884ed8ea6795d655cf",
+  "record_sha256": "b5e48557b1cb73d3f1be436301d2d596fe049e4d7d00e1c1fe8a6a4318181ca4",
+  "sequence": 13,
+  "session_id": "ho-record"
+ },
+ "description": "Once a UTC day Headless Oracle publishes a signed, hash-chained record of its own previous day: the halt digest it served, the receipt-verify registry index, and counts of witness checkpoints, MCP use and x402 settlements. Each record is witnessed by Chirindo Witness, which is HO itself, and timestamped with OpenTimestamps; a proof becomes a Bitcoin attestation once the calendars confirm it.",
+ "expected_newest_date": "2026-10-21",
+ "failed_steps": [],
+ "ho_operated_witness_keys": [
+  {
+   "first_seen": "2026-10-04T14:01:07.785Z",
+   "kid": "jz-7FYorYzzTy10kk3T1z8pWn2Ln8JBBhcdweor1xjo",
+   "purpose": "The operator key of the headlessoracle.com homepage Witness demo (session demo-purchasing-agent-76f75512-dfca-4385-8ad0-16117144c933); https://headlessoracle.com/examples/witness-demo-bundle.json says the key was made for that page"
+  },
+  {
+   "first_seen": "2026-10-09T10:33:38.564Z",
+   "kid": "27BNS0qbBS8n5BkA-SljusB8GqsicoDARJ5iU4Rnvvw",
+   "purpose": "Headless Oracle's own test of Chirindo checkpoints against this witness (sessions y1-prod-2026-10-09 and y1-prod-2026-10-09-b)"
+  },
+  {
+   "first_seen": "2026-10-09T13:03:33.974Z",
+   "kid": "D8WTDAY8BnSSusV5d-jWRKXEatX7-8iWQm4txYYYJ9U",
+   "purpose": "The operator key of Headless Oracle's Chirindo ordering-evidence example, cases A and B (sessions ordering-evidence-case-a-1 and ordering-evidence-case-b-1)"
+  },
+  {
+   "first_seen": "2026-10-10T09:00:14.391Z",
+   "kid": "-0bMmxck6Lc9XLCOlRWl3pNU0bndJEthVc9itDfWrLU",
+   "purpose": "The witness key of this daily record (session ho-record)"
+  }
+ ],
+ "honest_limits": [
+  "The record is signed by Headless Oracle with key_2026_v1 and says what Headless Oracle counted; the signature shows who published the bytes, not that the counts are true.",
+  "The chain shows that a published record was not changed or removed later without the change being visible; it says nothing about a record before it was first published.",
+  "A witness receipt is Headless Oracle's signed statement that it was shown the checkpoint at received_at; it is only as reliable as Headless Oracle and its signing key. Here the operator and the witness are the same party, so this shows use of the product, not independence. Independence comes from the OpenTimestamps proof.",
+  "witness_distinct_keys_excluding_ho leaves out only the record's own witness key, so keys Headless Oracle runs for its own examples count in it: the record of 2026-10-09 counts two such keys. witness_distinct_keys_outside_ho, which records carry from the first record built after ho_operated_witness_keys was added to https://headlessoracle.com/record, leaves out the record's own witness key, every key in that list, and every checkpoint whose session_id begins with \"ho-\", whoever sent it.",
+  "A timestamp proof is pending until the calendars commit it to Bitcoin; a proof becomes a Bitcoin attestation once the calendars confirm it, usually within hours. A pending proof rests on the calendars' word.",
+  "MCP counts begin on 2026-10-10. A client is counted by the name it sends on initialize, hashed; clients that never send initialize are not counted, and two clients sending one name count once.",
+  "Revenue, purchases and anything about named customers are not in the record."
+ ],
+ "links": {
+  "markdown": "https://headlessoracle.com/record.md",
+  "ots": "https://headlessoracle.com/record/{date}.ots",
+  "proofs": "https://headlessoracle.com/record/{date}/proofs",
+  "record": "https://headlessoracle.com/record/{date}",
+  "witness_spec": "https://api.headlessoracle.com/v1/witness/spec"
+ },
+ "newest": {
+  "date": "2026-10-21",
+  "late": false,
+  "ots_url": "https://headlessoracle.com/record/2026-10-21.ots",
+  "proofs_url": "https://headlessoracle.com/record/2026-10-21/proofs",
+  "record_sha256": "b5e48557b1cb73d3f1be436301d2d596fe049e4d7d00e1c1fe8a6a4318181ca4",
+  "sequence": 13,
+  "url": "https://headlessoracle.com/record/2026-10-21"
+ },
+ "ots_proofs": {
+  "complete": 12,
+  "failed": 0,
+  "pending": 1
+ },
+ "records": 13,
+ "schema": "ho-record-index/1",
+ "signing_key": {
+  "keys_url": "https://headlessoracle.com/v5/keys",
+  "public_key_id": "key_2026_v1"
+ },
+ "verify": [
+  "GET https://headlessoracle.com/record/<date> and take SHA-256 of the exact response bytes: that is record_sha256.",
+  "Remove signed_payload, canonical, public_key_id and signature from the parsed record, serialize the rest with RFC 8785 (JCS), and check its SHA-256 equals signed_payload.record_body_sha256; check signed_payload.date, sequence and previous_record_sha256 match the record.",
+  "Sort the keys of signed_payload, JSON.stringify with no whitespace, check it equals canonical, and verify signature (hex Ed25519) over those UTF-8 bytes with the public_key of the keys[] entry in https://headlessoracle.com/v5/keys whose key_id is public_key_id.",
+  "Check previous_record_sha256 equals the SHA-256 of the bytes served at https://headlessoracle.com/record/<date - 1 day> (null on sequence 1).",
+  "Run `ots verify -d <record_sha256> <date>.ots` (or `ots info`) on https://headlessoracle.com/record/<date>.ots; it is pending until a calendar commits it to Bitcoin.",
+  "GET https://api.headlessoracle.com/v1/witness/checkpoints?kid=<witness_key.kid>&session_id=ho-record and find the receipt whose count is the sequence and whose last_entry_hash is the entry_hash in /record/<date>/proofs; recompute entry_hash from the chain_entry shown there."
+ ],
+ "witness_key": {
+  "crv": "Ed25519",
+  "kid": "-0bMmxck6Lc9XLCOlRWl3pNU0bndJEthVc9itDfWrLU",
+  "kid_rule": "RFC 7638 thumbprint, base64url without padding",
+  "kty": "OKP",
+  "query_url": "https://api.headlessoracle.com/v1/witness/checkpoints?kid=-0bMmxck6Lc9XLCOlRWl3pNU0bndJEthVc9itDfWrLU&session_id=ho-record",
+  "session_id": "ho-record",
+  "x": "1jp4eQDU5_4AE6aoqQJVIOxL6NOtQvucF6qa9lAgrx0"
+ },
+ "witness_receipts": 13
+}

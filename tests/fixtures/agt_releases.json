@@ -1,0 +1,42 @@
+[
+ {
+  "draft": false,
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v4.1.0",
+  "id": 336926919,
+  "prerelease": false,
+  "published_at": "2026-06-09T23:11:52Z",
+  "tag_name": "v4.1.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v4.0.0",
+  "id": 332769783,
+  "prerelease": false,
+  "published_at": "2026-06-01T21:03:58Z",
+  "tag_name": "v4.0.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.7.0",
+  "id": 324606510,
+  "prerelease": false,
+  "published_at": "2026-05-18T22:29:51Z",
+  "tag_name": "v3.7.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.6.0",
+  "id": 324606474,
+  "prerelease": false,
+  "published_at": "2026-05-18T22:29:42Z",
+  "tag_name": "v3.6.0"
+ },
+ {
+  "draft": false,
+  "html_url": "https://github.com/microsoft/agent-governance-toolkit/releases/tag/v3.5.0",
+  "id": 319255072,
+  "prerelease": false,
+  "published_at": "2026-05-08T00:00:18Z",
+  "tag_name": "v3.5.0"
+ }
+]
