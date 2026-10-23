@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-23",
+  "exit_code": 0,
+  "generated_at": "2026-10-23T14:22:03Z",
+  "monitors": {
+    "kill-trigger": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 4,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "guid": "https://developers.cloudflare.com/changelog/post/2026-10-23-radar-homepage-redesign/",
+              "link": "https://developers.cloudflare.com/changelog/post/2026-10-23-radar-homepage-redesign/",
+              "pub_date": "Fri, 23 Oct 2026 00:00:00 GMT",
+              "title": "Radar - Redesigned Cloudflare Radar homepage"
+            }
+          ],
+          "id": "cf-changelog",
+          "moved": true,
+          "other_new_count": 9,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "mcp-registry": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "mcp-commits",
+          "moved": false,
+          "other_new_count": 2,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "mcp-pulls-updated",
+          "moved": false,
+          "other_new_count": 3,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    }
+  },
+  "previous_date": "2026-10-22",
+  "schema": "ho-radar-summary/1"
+}
