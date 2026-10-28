@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-28",
+  "exit_code": 0,
+  "generated_at": "2026-10-28T16:14:50Z",
+  "monitors": {
+    "kill-trigger": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 6,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 6,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-10-27T02:34:04Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/04bd3f462497858d5f7758e7fffe6946c200e0c9",
+              "sha": "04bd3f462497858d5f7758e7fffe6946c200e0c9"
+            },
+            {
+              "date": "2026-10-28T15:56:33Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/2ff7595300887f96c3dc28309be5e0cfcd156486",
+              "sha": "2ff7595300887f96c3dc28309be5e0cfcd156486"
+            },
+            {
+              "date": "2026-10-27T02:26:33Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/9362c0752086d648bc360e319948cb27c470616e",
+              "sha": "9362c0752086d648bc360e319948cb27c470616e"
+            },
+            {
+              "date": "2026-10-27T07:33:57Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/fdb308988d0354b9ecfac1cb83a23902e93e1ff8",
+              "sha": "fdb308988d0354b9ecfac1cb83a23902e93e1ff8"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 5,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3364",
+              "merged_at": "2026-10-28T15:56:34Z",
+              "number": 3364,
+              "state": "closed",
+              "title": "docs: clarify extension negotiation for initialization-based versions",
+              "updated_at": "2026-10-28T15:56:39Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3392",
+              "merged_at": null,
+              "number": 3392,
+              "state": "open",
+              "title": "SEP-3392: Extension Lifecycle",
+              "updated_at": "2026-10-27T23:30:57Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3461",
+              "merged_at": null,
+              "number": 3461,
+              "state": "open",
+              "title": "docs: add Kiro Crew to extension support matrix",
+              "updated_at": "2026-10-28T15:14:52Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 4,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    }
+  },
+  "previous_date": "2026-10-27",
+  "schema": "ho-radar-summary/1"
+}
