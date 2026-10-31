@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-31",
+  "exit_code": 1,
+  "generated_at": "2026-10-31T15:28:48Z",
+  "monitors": {
+    "kill-trigger": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 11,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "mcp-commits",
+          "moved": false,
+          "other_new_count": 8,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3480",
+              "merged_at": null,
+              "number": 3480,
+              "state": "open",
+              "title": "docs: pull registry docs from v1.8.7",
+              "updated_at": "2026-10-31T07:27:18Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 15,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "error": "parse failure: ValueError: last comment payload is not a non-empty list",
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "ERROR"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "ERROR"
+    }
+  },
+  "previous_date": "2026-10-30",
+  "schema": "ho-radar-summary/1"
+}
