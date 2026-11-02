@@ -329,8 +329,10 @@ class TestVerdicts(RadarCase):
         self.sleeps[:] = []
         self.net.calls[:] = []
         code, s2 = self.run_day(D2)
-        self.assertEqual(code, 1)
-        self.assertEqual(s2["exit_code"], 1)
+        # first day in ERROR: degraded, the run stays green (B-461)
+        self.assertEqual(code, 0)
+        self.assertEqual(s2["exit_code"], 0)
+        self.assertEqual(s2["monitors"]["x402-issues"]["degraded"], ["argentum-core-commits"])
         self.assertEqual(self.verdicts(s2), {
             "kill-trigger": "QUIET", "x402-issues": "ERROR",
             "mcp-registry": "QUIET", "record": "OK"})
@@ -374,7 +376,8 @@ class TestVerdicts(RadarCase):
         code, s = self.run_day(D1)
         self.assertEqual(s["monitors"]["kill-trigger"]["verdict"], "ERROR")
         self.assertEqual(s["monitors"]["x402-issues"]["verdict"], "BASELINE")
-        self.assertEqual(code, 1)
+        self.assertEqual(s["monitors"]["kill-trigger"]["degraded"], ["agt-commits"])
+        self.assertEqual(code, 0)
 
     def test_07d_timeouts_and_parse_failures_are_errors(self):
         self.net.routes[URL["cf-blog"]] = TimeoutError("timed out")
@@ -395,9 +398,10 @@ class TestVerdicts(RadarCase):
     def test_07e_failed_last_comment_fetch_makes_the_issue_source_error(self):
         self.net.set_status(comments_url("x402-issue-2332", 236), 502)
         code, s = self.run_day(D1)
-        self.assertEqual(code, 1)
+        self.assertEqual(code, 0)
         self.assertEqual(self.source(s, "x402-issues", "x402-issue-2332")["status"], "ERROR")
         self.assertEqual(s["monitors"]["x402-issues"]["verdict"], "ERROR")
+        self.assertEqual(s["monitors"]["x402-issues"]["degraded"], ["x402-issue-2332"])
         self.assertEqual(self.net.count(comments_url("x402-issue-2332", 236)), 3)
 
     def test_08_record_incidents_name_the_failing_check_and_exit_2(self):
@@ -461,6 +465,12 @@ class TestVerdicts(RadarCase):
         code, s = self.run_day(D1)
         self.assertEqual(s["monitors"]["record"]["verdict"], "INCIDENT")
         self.assertEqual(s["monitors"]["kill-trigger"]["verdict"], "ERROR")
+        # a degraded (first-day) error does not outrank INCIDENT (B-461)
+        self.assertEqual(code, 2)
+        # the same error in the next snapshot is red and does
+        code, s = self.run_day(D2, follow=False)
+        self.assertEqual(s["monitors"]["record"]["verdict"], "INCIDENT")
+        self.assertEqual(s["monitors"]["kill-trigger"]["degraded"], [])
         self.assertEqual(code, 1)
 
     def test_09_same_inputs_give_byte_identical_outputs(self):
@@ -930,11 +940,14 @@ class TestR1Fixes(RadarCase):
         self.assertEqual(res["status"], "ERROR")
         self.assertEqual(res["error"], "empty where previous had 30")
         self.assertEqual(s2["monitors"]["kill-trigger"]["verdict"], "ERROR")
-        self.assertEqual(code, 1)
-        # still empty the next day: still an error against the last good data
+        self.assertEqual(s2["monitors"]["kill-trigger"]["degraded"], ["agt-commits"])
+        self.assertEqual(code, 0)
+        # still empty the next day: still an error against the last good data,
+        # and now two snapshots running, so red
         code, s3 = self.run_day(D3)
         self.assertEqual(self.source(s3, "kill-trigger", "agt-commits")["error"],
                          "empty where previous had 30")
+        self.assertEqual(code, 1)
         # a normal payload returns: compared with the last good observation
         self.net.routes[URL["agt-commits"]] = (200, read_fixture("agt_commits.json"))
         code, s4 = self.run_day("2026-10-25")
@@ -948,7 +961,7 @@ class TestR1Fixes(RadarCase):
         res = self.source(s2, "kill-trigger", "cf-blog")
         self.assertEqual(res["status"], "ERROR")
         self.assertEqual(res["error"], "empty where previous had 10")
-        self.assertEqual(code, 1)
+        self.assertEqual(code, 0)
 
     def test_16c_empty_list_on_first_observation_is_not_an_error(self):
         self.net.set_json("agt-releases", [])
@@ -966,7 +979,7 @@ class TestR1Fixes(RadarCase):
         res = self.source(s2, "kill-trigger", "cf-blog")
         self.assertEqual(res["status"], "ERROR")
         self.assertIn("neither guid nor link", res["error"])
-        self.assertEqual(code, 1)
+        self.assertEqual(code, 0)
 
     # F5 ------------------------------------------------------------------
     def test_17_record_checks_against_the_previous_observation(self):
@@ -1129,6 +1142,57 @@ class TestB458CommentDrift(unittest.TestCase):
             self.norm()
         self.assertEqual(self.net.calls, [comments_url("x402-issue-2332", p)
                                           for p in range(self.n, self.n - 4, -1)])
+
+
+class TestB461DegradedSource(RadarCase):
+    """B-461: a first-day source error is degraded, not red."""
+
+    def summary_md(self, date):
+        return Path(self.data, date, "SUMMARY.md").read_text(encoding="ascii")
+
+    def test_one_day_error_is_degraded_and_exits_0(self):
+        self.run_day(D1)
+        self.net.set_status("agt-commits", 500)
+        code, s = self.run_day(D2)
+        self.assertEqual(code, 0)
+        self.assertEqual(s["exit_code"], 0)
+        self.assertEqual(s["monitors"]["kill-trigger"]["verdict"], "ERROR")
+        self.assertEqual(s["monitors"]["kill-trigger"]["degraded"], ["agt-commits"])
+        for mon in ("x402-issues", "mcp-registry", "record"):
+            self.assertEqual(s["monitors"][mon]["degraded"], [], mon)
+        self.assertEqual(s["schema"], "ho-radar-summary/1")
+        self.assertIn("- degraded (first day in ERROR): agt-commits\n", self.summary_md(D2))
+
+    def test_two_day_error_exits_1(self):
+        self.run_day(D1)
+        self.net.set_status("agt-commits", 500)
+        self.run_day(D2)
+        code, s = self.run_day(D3)
+        self.assertEqual(code, 1)
+        self.assertEqual(s["monitors"]["kill-trigger"]["verdict"], "ERROR")
+        self.assertEqual(s["monitors"]["kill-trigger"]["degraded"], [])
+        self.assertIn("- agt-commits: ERROR (HTTP 500), also ERROR in the previous snapshot\n",
+                      self.summary_md(D3))
+
+    def test_every_source_of_a_monitor_in_error_exits_1_on_the_first_day(self):
+        self.run_day(D1)
+        for sid in ("mcp-pr-2133", "mcp-commits", "mcp-pulls-updated"):
+            self.net.set_status(sid, 500)
+        code, s = self.run_day(D2)
+        self.assertEqual(code, 1)
+        self.assertEqual(s["monitors"]["mcp-registry"]["verdict"], "ERROR")
+        self.assertEqual(s["monitors"]["mcp-registry"]["degraded"],
+                         ["mcp-commits", "mcp-pr-2133", "mcp-pulls-updated"])
+
+    def test_record_error_exits_1_unchanged(self):
+        self.run_day(D1)
+        self.net.set_status("ho-record", 500)
+        code, s = self.run_day(D2, follow=False)
+        self.assertEqual(code, 1)
+        self.assertEqual(s["monitors"]["record"]["verdict"], "ERROR")
+        self.assertEqual(s["monitors"]["record"]["degraded"], ["ho-record"])
+        for mon in ("kill-trigger", "x402-issues", "mcp-registry"):
+            self.assertEqual(s["monitors"][mon]["degraded"], [], mon)
 
 
 if __name__ == "__main__":

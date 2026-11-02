@@ -101,10 +101,15 @@ For record (Headless Oracle's own daily record):
   date is later than the earlier observation's date).
 - `ERROR`: the record could not be fetched or parsed.
 
-`radar.collect` exits 0 when no monitor is `ERROR` and record is `OK`, 1 when
-any monitor is `ERROR`, and 2 when record is `INCIDENT` and no monitor is
-`ERROR`. The workflow commits the data first and then fails the job on a
-non-zero code, so GitHub notifies the repository owner.
+A monitor's verdict is `ERROR` whenever any of its sources errors, but one
+source's first day in `ERROR` does not fail the run: each monitor in
+`summary.json` lists such sources in `degraded`, and SUMMARY.md prints them.
+
+`radar.collect` exits 1 when a source is `ERROR` today and was `ERROR` in the
+previous snapshot, when every source of one monitor is `ERROR`, or when record
+is `ERROR`; otherwise 2 when record is `INCIDENT`; otherwise 0. The workflow
+commits the data first and then fails the job on a non-zero code, so GitHub
+notifies the repository owner.
 
 ## Schedule
 

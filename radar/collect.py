@@ -548,10 +548,14 @@ def render_markdown(summary):
         mon = summary["monitors"][name]
         lines.append("")
         lines.append("## %s: %s" % (name, mon["verdict"]))
+        if mon["degraded"]:
+            lines.append("- degraded (first day in ERROR): %s" % ", ".join(mon["degraded"]))
         for src in mon["sources"]:
             line = "- %s: %s" % (src["id"], src["status"])
             if src["status"] == "ERROR":
                 line += " (%s)" % src.get("error")
+                if src["id"] not in mon["degraded"]:
+                    line += ", also ERROR in the previous snapshot"
             elif src.get("baseline"):
                 line += ", no previous observation"
             elif src["moved"]:
@@ -632,6 +636,7 @@ def run(data_dir, date, now, fetch, sleep, clock=None):
         entries.append(entry)
 
     monitors = {}
+    red_monitors = []
     for mname in S.MONITORS:
         regex = monitor_regex(mname)
         results = []
@@ -667,12 +672,20 @@ def run(data_dir, date, now, fetch, sleep, clock=None):
             verdict = "BASELINE"
         else:
             verdict = "QUIET"
-        mon = {"verdict": verdict, "sources": results}
+        # A source's first day in ERROR is degraded, not red: one flaky fetch
+        # must not fail the run (B-461). The verdict stays ERROR either way.
+        errored = [r["id"] for r in results if r["status"] == "ERROR"]
+        degraded = [i for i in errored
+                    if prev_by_id.get(i, {}).get("status") != "ERROR"]
+        mon = {"verdict": verdict, "sources": results, "degraded": degraded}
         if checks is not None:
             mon["checks"] = checks
         monitors[mname] = mon
+        # red: an error two snapshots running, or every source of the monitor
+        if len(degraded) < len(errored) or (results and len(errored) == len(results)):
+            red_monitors.append(mname)
 
-    if any(m["verdict"] == "ERROR" for m in monitors.values()):
+    if red_monitors or monitors["record"]["verdict"] == "ERROR":
         code = 1
     elif monitors["record"]["verdict"] == "INCIDENT":
         code = 2
