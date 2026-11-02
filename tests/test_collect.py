@@ -1097,5 +1097,39 @@ class TestR1Fixes(RadarCase):
         self.assertEqual(s3["monitors"]["mcp-registry"]["verdict"], "MOVED")
 
 
+class TestB458CommentDrift(unittest.TestCase):
+    """B-458: x402#2332's comment counter ran one ahead of the listed comments."""
+
+    def setUp(self):
+        self.net = FakeNet()
+        self.src = [s for s in sources.SOURCES if s["id"] == "x402-issue-2332"][0]
+        self.body = read_fixture(FILES["x402-issue-2332"])
+        self.n = json.loads(self.body.decode("ascii"))["comments"]
+
+    def norm(self):
+        return collect.norm_gh_issue(self.src, self.body, self.net.fetch, lambda s: None)
+
+    def test_empty_last_page_steps_back_to_the_newest_comment(self):
+        self.net.set_json(comments_url("x402-issue-2332", self.n), [])
+        self.net.set_raw(comments_url("x402-issue-2332", self.n - 1),
+                         read_fixture("x402_issue_2332_lastcomment.json"))
+        out = self.norm()
+        expected = json.loads(read_fixture("x402_issue_2332_lastcomment.json").decode("ascii"))[0]
+        self.assertEqual(out["last_comment"], expected)
+        self.assertEqual(out["comments"], self.n)
+        self.assertEqual(self.net.calls, [comments_url("x402-issue-2332", self.n),
+                                          comments_url("x402-issue-2332", self.n - 1)])
+
+    def test_four_empty_pages_still_raise_after_three_steps_back(self):
+        for page in range(self.n - 3, self.n + 1):
+            self.net.set_json(comments_url("x402-issue-2332", page), [])
+        self.net.set_raw(comments_url("x402-issue-2332", self.n - 4),
+                         read_fixture("x402_issue_2332_lastcomment.json"))
+        with self.assertRaisesRegex(ValueError, "last comment payload is not a non-empty list"):
+            self.norm()
+        self.assertEqual(self.net.calls, [comments_url("x402-issue-2332", p)
+                                          for p in range(self.n, self.n - 4, -1)])
+
+
 if __name__ == "__main__":
     unittest.main()

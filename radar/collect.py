@@ -29,6 +29,7 @@ MAX_RSS_ITEMS = 50
 MAX_LINE = 120
 MAX_ERROR = 300
 DEADLINE_SECONDS = 600
+LAST_COMMENT_STEP_BACK = 3
 HANDLE_RE = re.compile(r"@[A-Za-z0-9][A-Za-z0-9-]*")
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -147,13 +148,24 @@ def norm_gh_issue(src, body, fetch, sleep):
     comments = int(d["comments"])
     last = None
     if comments > 0:
-        url = "%s/comments?per_page=1&page=%d" % (src["url"], comments)
-        status, cbody, err = get_with_retry(fetch, url, sleep)
-        if err is not None:
-            raise FetchProblem(status, "last comment fetch failed: " + err)
-        arr = _json(cbody)
-        if not isinstance(arr, list) or not arr:
-            raise ValueError("last comment payload is not a non-empty list")
+        # The issue's counter can run ahead of the comments the API lists
+        # (x402#2332 on 2026-10-31: comments 238, page 238 empty, page 237
+        # newest), so an empty page steps back up to LAST_COMMENT_STEP_BACK
+        # pages before it counts as a parse failure.
+        page = comments
+        while True:
+            url = "%s/comments?per_page=1&page=%d" % (src["url"], page)
+            status, cbody, err = get_with_retry(fetch, url, sleep)
+            if err is not None:
+                raise FetchProblem(status, "last comment fetch failed: " + err)
+            arr = _json(cbody)
+            if not isinstance(arr, list):
+                raise ValueError("last comment payload is not a non-empty list")
+            if arr:
+                break
+            if page <= 1 or page <= comments - LAST_COMMENT_STEP_BACK:
+                raise ValueError("last comment payload is not a non-empty list")
+            page -= 1
         c = arr[0]
         last = {"id": c["id"], "created_at": c["created_at"], "html_url": c["html_url"]}
     return {
