@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
   "exit_code": 0,
-  "generated_at": "2026-11-02T10:59:14Z",
+  "generated_at": "2026-11-02T19:44:19Z",
   "monitors": {
     "kill-trigger": {
       "degraded": [],
@@ -10,7 +10,7 @@
           "hits": [],
           "id": "agt-commits",
           "moved": false,
-          "other_new_count": 0,
+          "other_new_count": 2,
           "status": "OK"
         },
         {
@@ -24,14 +24,14 @@
           "hits": [],
           "id": "cf-blog",
           "moved": false,
-          "other_new_count": 0,
+          "other_new_count": 1,
           "status": "OK"
         },
         {
           "hits": [],
           "id": "cf-changelog",
           "moved": false,
-          "other_new_count": 0,
+          "other_new_count": 3,
           "status": "OK"
         }
       ],
@@ -54,14 +54,23 @@
           "status": "OK"
         },
         {
-          "hits": [],
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3495",
+              "merged_at": null,
+              "number": 3495,
+              "state": "open",
+              "title": "Add Glean to extension support matrix",
+              "updated_at": "2026-11-02T18:05:14Z"
+            }
+          ],
           "id": "mcp-pulls-updated",
-          "moved": false,
-          "other_new_count": 9,
+          "moved": true,
+          "other_new_count": 11,
           "status": "OK"
         }
       ],
-      "verdict": "QUIET"
+      "verdict": "MOVED"
     },
     "record": {
       "checks": {

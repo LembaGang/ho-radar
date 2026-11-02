@@ -1,11 +1,23 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T10:59:14Z",
+  "generated_at": "2026-11-02T19:44:19Z",
   "schema": "ho-radar-snapshot/1",
   "sources": [
     {
       "data": {
         "items": [
+          {
+            "date": "2026-11-02T19:32:43Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/4aa6ac3d33ff861f6ceee3050e3d8946df2e5881",
+            "sha": "4aa6ac3d33ff861f6ceee3050e3d8946df2e5881"
+          },
+          {
+            "date": "2026-11-02T16:26:48Z",
+            "hit_terms": [],
+            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/9c6907af69cd671ef297b339d559ef3c074c6f03",
+            "sha": "9c6907af69cd671ef297b339d559ef3c074c6f03"
+          },
           {
             "date": "2026-10-30T18:36:44Z",
             "hit_terms": [],
@@ -173,18 +185,6 @@
             "hit_terms": [],
             "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/096444606750bddc1ef563d4329c92eb5f4d1a13",
             "sha": "096444606750bddc1ef563d4329c92eb5f4d1a13"
-          },
-          {
-            "date": "2026-10-27T09:36:55Z",
-            "hit_terms": [],
-            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/aea426da0cf50a56128c154fdaf7852704d97ffe",
-            "sha": "aea426da0cf50a56128c154fdaf7852704d97ffe"
-          },
-          {
-            "date": "2026-10-27T09:36:40Z",
-            "hit_terms": [],
-            "html_url": "https://github.com/microsoft/agent-governance-toolkit/commit/63a16d9eb1f8c658f9fa37f52555432c7c406656",
-            "sha": "63a16d9eb1f8c658f9fa37f52555432c7c406656"
           }
         ]
       },
@@ -507,6 +507,12 @@
       "data": {
         "items": [
           {
+            "guid": "01M5J4YTFMTRT7PG1Y8HAPNPYG",
+            "link": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+            "pub_date": "Mon, 02 Nov 2026 14:00:00 GMT",
+            "title": "How we halved DNS build delay and cut memory use by 85%"
+          },
+          {
             "guid": "01M66XYRNK559YY01V2P37EBD7",
             "link": "https://blog.cloudflare.com/emudhra-patching/",
             "pub_date": "Fri, 30 Oct 2026 17:38:50 GMT",
@@ -619,12 +625,6 @@
             "link": "https://blog.cloudflare.com/programmable-gateway-dlp/",
             "pub_date": "Thu, 15 Oct 2026 17:11:12 GMT",
             "title": "A fully programmable secure web gateway"
-          },
-          {
-            "guid": "01M4EX2BRJ7RNGAPQTBRXWRYT1",
-            "link": "https://blog.cloudflare.com/deploy-with-void/",
-            "pub_date": "Thu, 15 Oct 2026 14:00:00 GMT",
-            "title": "Deploy with Void"
           }
         ]
       },
@@ -641,6 +641,24 @@
     {
       "data": {
         "items": [
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-11-02-local-flag-store/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-11-02-local-flag-store/",
+            "pub_date": "Mon, 02 Nov 2026 00:00:00 GMT",
+            "title": "Flagship - Evaluate Flagship flags locally"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-11-02-module-registry-default/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-11-02-module-registry-default/",
+            "pub_date": "Mon, 02 Nov 2026 00:00:00 GMT",
+            "title": "Workers - Workers will use the new module registry by default on November 17"
+          },
+          {
+            "guid": "https://developers.cloudflare.com/changelog/post/2026-11-02-request-signal-default/",
+            "link": "https://developers.cloudflare.com/changelog/post/2026-11-02-request-signal-default/",
+            "pub_date": "Mon, 02 Nov 2026 00:00:00 GMT",
+            "title": "Workers - Request.signal will be enabled by default in Workers on November 17"
+          },
           {
             "guid": "https://developers.cloudflare.com/changelog/post/2026-10-30-scim-population-viewer/",
             "link": "https://developers.cloudflare.com/changelog/post/2026-10-30-scim-population-viewer/",
@@ -922,24 +940,6 @@
             "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-account-scoped-http-requests/",
             "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
             "title": "logpush, Logs - Account-scoped HTTP request logs in Logpush"
-          },
-          {
-            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/",
-            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-cfmr/",
-            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
-            "title": "WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Managed Ruleset"
-          },
-          {
-            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/",
-            "link": "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/",
-            "pub_date": "Wed, 21 Oct 2026 00:00:00 GMT",
-            "title": "WAF - WAF Release - 2026-10-21 - Emergency - Cloudflare Free Ruleset"
-          },
-          {
-            "guid": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/",
-            "link": "https://developers.cloudflare.com/changelog/post/2026-10-20-warp-windows-ga/",
-            "pub_date": "Tue, 20 Oct 2026 01:21:08 GMT",
-            "title": "Cloudflare One Client - Cloudflare One Client for Windows (version 2026.8.2115.0)"
           }
         ]
       },
@@ -1218,6 +1218,30 @@
       "data": {
         "items": [
           {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3496",
+            "merged_at": null,
+            "number": 3496,
+            "state": "open",
+            "title": "Update the Ruby SDK Tier 1 blog post",
+            "updated_at": "2026-11-02T19:17:36Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3495",
+            "merged_at": null,
+            "number": 3495,
+            "state": "open",
+            "title": "Add Glean to extension support matrix",
+            "updated_at": "2026-11-02T18:05:14Z"
+          },
+          {
+            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2792",
+            "merged_at": null,
+            "number": 2792,
+            "state": "open",
+            "title": "SEP-2792: Per-Request User Language Preference",
+            "updated_at": "2026-11-02T16:45:49Z"
+          },
+          {
             "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2145",
             "merged_at": null,
             "number": 2145,
@@ -1432,30 +1456,6 @@
             "state": "closed",
             "title": "Update Filesystems WG Charter",
             "updated_at": "2026-10-30T08:05:44Z"
-          },
-          {
-            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3467",
-            "merged_at": "2026-10-30T08:05:09Z",
-            "number": 3467,
-            "state": "closed",
-            "title": "docs: mark Skills support for MCPJam in the extension matrix",
-            "updated_at": "2026-10-30T08:05:12Z"
-          },
-          {
-            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3470",
-            "merged_at": "2026-10-30T08:04:35Z",
-            "number": 3470,
-            "state": "closed",
-            "title": "docs: fix dead links to the ext-auth specifications",
-            "updated_at": "2026-10-30T08:04:45Z"
-          },
-          {
-            "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3306",
-            "merged_at": "2026-10-30T08:03:58Z",
-            "number": 3306,
-            "state": "closed",
-            "title": "Document identity provider support for enterprise managed auth",
-            "updated_at": "2026-10-30T08:04:01Z"
           }
         ]
       },

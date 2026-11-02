@@ -1,19 +1,20 @@
 # ho-radar summary 2026-11-02
 
-generated_at: 2026-11-02T10:59:14Z
+generated_at: 2026-11-02T19:44:19Z
 previous snapshot: 2026-11-01
 exit code: 0
 
 ## kill-trigger: QUIET
-- agt-commits: OK, no movement
+- agt-commits: OK, no movement, 2 other new item(s)
 - agt-releases: OK, no movement
-- cf-blog: OK, no movement
-- cf-changelog: OK, no movement
+- cf-blog: OK, no movement, 1 other new item(s)
+- cf-changelog: OK, no movement, 3 other new item(s)
 
-## mcp-registry: QUIET
+## mcp-registry: MOVED
 - mcp-commits: OK, no movement
 - mcp-pr-2133: OK, no movement
-- mcp-pulls-updated: OK, no movement, 9 other new item(s)
+- mcp-pulls-updated: OK, moved, 11 other new item(s)
+  - hit: Add Glean to extension support matrix https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3495
 
 ## record: OK
 - ho-record: OK, no movement
