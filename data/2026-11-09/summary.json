@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-09",
+  "exit_code": 0,
+  "generated_at": "2026-11-09T19:59:25Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "guid": "https://developers.cloudflare.com/changelog/post/2026-11-09-radar-bots-directory-botbase/",
+              "link": "https://developers.cloudflare.com/changelog/post/2026-11-09-radar-bots-directory-botbase/",
+              "pub_date": "Mon, 09 Nov 2026 00:00:00 GMT",
+              "title": "Radar - Redesigned Bots Directory on Cloudflare Radar, now powered by BotBase"
+            }
+          ],
+          "id": "cf-changelog",
+          "moved": true,
+          "other_new_count": 5,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "mcp-commits",
+          "moved": false,
+          "other_new_count": 16,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "mcp-pulls-updated",
+          "moved": false,
+          "other_new_count": 17,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-09T13:37:16Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/369dc33820e59cc266e8c5cf7a27d6d39954029f",
+              "sha": "369dc33820e59cc266e8c5cf7a27d6d39954029f"
+            },
+            {
+              "date": "2026-11-07T18:40:15Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/40fb383a2de62762796b5b1837b7a1d9db2c0d2a",
+              "sha": "40fb383a2de62762796b5b1837b7a1d9db2c0d2a"
+            }
+          ],
+          "id": "argentum-core-commits",
+          "moved": true,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    }
+  },
+  "previous_date": "2026-11-08",
+  "schema": "ho-radar-summary/1"
+}
