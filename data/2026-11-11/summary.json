@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-11",
+  "exit_code": 0,
+  "generated_at": "2026-11-11T17:23:56Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 4,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-11T10:59:59Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/5324218639be4a6c696902d70f98f225326bbe4b",
+              "sha": "5324218639be4a6c696902d70f98f225326bbe4b"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 5,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+              "merged_at": null,
+              "number": 3415,
+              "state": "open",
+              "title": "SEP-3415: Events Extension",
+              "updated_at": "2026-11-11T15:10:47Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3480",
+              "merged_at": null,
+              "number": 3480,
+              "state": "open",
+              "title": "docs: pull registry docs from v1.8.9",
+              "updated_at": "2026-11-11T16:19:42Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3515",
+              "merged_at": "2026-11-11T10:59:59Z",
+              "number": 3515,
+              "state": "closed",
+              "title": "docs(blog): add post on the file uploads and downloads extension",
+              "updated_at": "2026-11-11T11:00:18Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 18,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    }
+  },
+  "previous_date": "2026-11-10",
+  "schema": "ho-radar-summary/1"
+}
