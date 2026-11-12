@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-12",
+  "exit_code": 0,
+  "generated_at": "2026-11-12T17:43:09Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 2,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 13,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-12T13:28:21Z",
+              "hit_terms": [
+                "registry"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/06e923405df3df242f1471b9300d9db90ebd10fd",
+              "sha": "06e923405df3df242f1471b9300d9db90ebd10fd"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 6,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3480",
+              "merged_at": "2026-11-12T13:28:22Z",
+              "number": 3480,
+              "state": "closed",
+              "title": "docs: pull registry docs from v1.8.9",
+              "updated_at": "2026-11-12T13:28:25Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 19,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    }
+  },
+  "previous_date": "2026-11-11",
+  "schema": "ho-radar-summary/1"
+}
