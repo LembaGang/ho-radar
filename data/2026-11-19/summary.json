@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-19",
+  "exit_code": 0,
+  "generated_at": "2026-11-19T18:36:36Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 2,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "guid": "https://developers.cloudflare.com/changelog/post/2026-11-19-redesigned-dashboard/",
+              "link": "https://developers.cloudflare.com/changelog/post/2026-11-19-redesigned-dashboard/",
+              "pub_date": "Thu, 19 Nov 2026 00:00:00 GMT",
+              "title": "Spectrum - Redesigned Spectrum dashboard"
+            }
+          ],
+          "id": "cf-changelog",
+          "moved": true,
+          "other_new_count": 6,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-19T15:06:34Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/8a18b4b3292b9f9b3aee73f6325f9f62f19a89f9",
+              "sha": "8a18b4b3292b9f9b3aee73f6325f9f62f19a89f9"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 7,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3415",
+              "merged_at": "2026-11-19T15:06:35Z",
+              "number": 3415,
+              "state": "closed",
+              "title": "sep(SEP-3415): Events Extension",
+              "updated_at": "2026-11-19T15:06:35Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3568",
+              "merged_at": null,
+              "number": 3568,
+              "state": "open",
+              "title": "docs(SEP-3415): register the Events extension",
+              "updated_at": "2026-11-19T17:25:25Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 10,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "argentum-core-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    }
+  },
+  "previous_date": "2026-11-18",
+  "schema": "ho-radar-summary/1"
+}
