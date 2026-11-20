@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-20",
+  "exit_code": 0,
+  "generated_at": "2026-11-20T17:58:04Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 12,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-20T10:50:43Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/bbc31f8ded5762eae4df115b93942f5e71c8b3a7",
+              "sha": "bbc31f8ded5762eae4df115b93942f5e71c8b3a7"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3510",
+              "merged_at": null,
+              "number": 3510,
+              "state": "open",
+              "title": "docs: add VS Code to Skills extension column in client matrix",
+              "updated_at": "2026-11-20T03:53:04Z"
+            },
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3568",
+              "merged_at": "2026-11-20T10:50:44Z",
+              "number": 3568,
+              "state": "closed",
+              "title": "docs(SEP-3415): register the Events extension",
+              "updated_at": "2026-11-20T10:50:47Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 3,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-20T00:28:06Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/8e01385cb5ac6dbfa51e8cb09020cadd22cd54b0",
+              "sha": "8e01385cb5ac6dbfa51e8cb09020cadd22cd54b0"
+            },
+            {
+              "date": "2026-11-20T00:34:04Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/abe9d57d1380a00629a539ace3300122079f3ac6",
+              "sha": "abe9d57d1380a00629a539ace3300122079f3ac6"
+            }
+          ],
+          "id": "argentum-core-commits",
+          "moved": true,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    }
+  },
+  "previous_date": "2026-11-19",
+  "schema": "ho-radar-summary/1"
+}
