@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-24",
+  "exit_code": 0,
+  "generated_at": "2026-11-24T20:19:01Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 19,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 5,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "mcp-commits",
+          "moved": false,
+          "other_new_count": 2,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "mcp-pulls-updated",
+          "moved": false,
+          "other_new_count": 5,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-24T16:44:49Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/0cf7367bfb2c1c59983be24f1e6ddd25a64656f4",
+              "sha": "0cf7367bfb2c1c59983be24f1e6ddd25a64656f4"
+            },
+            {
+              "date": "2026-11-24T01:59:12Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/0e230bbbd37c1d1b9ad5cc4153dc4eee000c8d26",
+              "sha": "0e230bbbd37c1d1b9ad5cc4153dc4eee000c8d26"
+            },
+            {
+              "date": "2026-11-24T01:56:57Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/348b7dd35d3c3ac1b1c0f6958615c79ed7160005",
+              "sha": "348b7dd35d3c3ac1b1c0f6958615c79ed7160005"
+            },
+            {
+              "date": "2026-11-24T01:44:27Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/3d924c0a2f16c4dbc5a7f6f1ae104598e0ce417c",
+              "sha": "3d924c0a2f16c4dbc5a7f6f1ae104598e0ce417c"
+            },
+            {
+              "date": "2026-11-24T01:58:45Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/4522b336fa255e66de753a4438a4c0344e165e42",
+              "sha": "4522b336fa255e66de753a4438a4c0344e165e42"
+            },
+            {
+              "date": "2026-11-24T16:04:55Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/4c7dc7c11777afb49471cdbb5aa67c8a87ed77d7",
+              "sha": "4c7dc7c11777afb49471cdbb5aa67c8a87ed77d7"
+            },
+            {
+              "date": "2026-11-24T01:53:57Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/54dd392616e34bcae0ca55ac5e402081e75d5f97",
+              "sha": "54dd392616e34bcae0ca55ac5e402081e75d5f97"
+            },
+            {
+              "date": "2026-11-24T02:00:20Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/5e3c040cb94a509d73acfec19baba5a1a6ec25b3",
+              "sha": "5e3c040cb94a509d73acfec19baba5a1a6ec25b3"
+            },
+            {
+              "date": "2026-11-24T01:55:48Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/6443bc5ffd3292e741d553ef0e4c61aca928377b",
+              "sha": "6443bc5ffd3292e741d553ef0e4c61aca928377b"
+            },
+            {
+              "date": "2026-11-24T01:57:30Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/a271827f2ea636ebada2d5659b8f407a0db33fcc",
+              "sha": "a271827f2ea636ebada2d5659b8f407a0db33fcc"
+            },
+            {
+              "date": "2026-11-24T16:15:42Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/a58d5b003ab010759289a719ab71297dda284bbd",
+              "sha": "a58d5b003ab010759289a719ab71297dda284bbd"
+            },
+            {
+              "date": "2026-11-24T16:13:36Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/a725260f4305abc61c857fd44acf1231d669b5a8",
+              "sha": "a725260f4305abc61c857fd44acf1231d669b5a8"
+            },
+            {
+              "date": "2026-11-23T01:47:24Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/ada5b18fc59a64c1551ac2b0d22c606701e566b8",
+              "sha": "ada5b18fc59a64c1551ac2b0d22c606701e566b8"
+            },
+            {
+              "date": "2026-11-24T16:14:40Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/b8b819280bb4c0bf0c7998136cc1be6f0702d301",
+              "sha": "b8b819280bb4c0bf0c7998136cc1be6f0702d301"
+            },
+            {
+              "date": "2026-11-24T12:20:17Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/c94e6380af49996f4d568493f6368bfbf6cbe065",
+              "sha": "c94e6380af49996f4d568493f6368bfbf6cbe065"
+            },
+            {
+              "date": "2026-11-24T15:23:24Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/cf753f0eff05505bcd2bb0c87dcfa9f97f84be6b",
+              "sha": "cf753f0eff05505bcd2bb0c87dcfa9f97f84be6b"
+            },
+            {
+              "date": "2026-11-24T01:55:20Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/e33662394f8be8549906472d0a8459cd77f467b3",
+              "sha": "e33662394f8be8549906472d0a8459cd77f467b3"
+            }
+          ],
+          "id": "argentum-core-commits",
+          "moved": true,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2332",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2357",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    }
+  },
+  "previous_date": "2026-11-23",
+  "schema": "ho-radar-summary/1"
+}
