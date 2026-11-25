@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-25",
+  "exit_code": 0,
+  "generated_at": "2026-11-25T19:32:32Z",
+  "monitors": {
+    "kill-trigger": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [],
+          "id": "agt-commits",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "agt-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-blog",
+          "moved": false,
+          "other_new_count": 1,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "cf-changelog",
+          "moved": false,
+          "other_new_count": 12,
+          "status": "OK"
+        }
+      ],
+      "verdict": "QUIET"
+    },
+    "mcp-registry": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-24T21:48:36Z",
+              "hit_terms": [
+                "extension"
+              ],
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3c8eb0c4e70b0b3af6471fc0cf3419c7098fdf39",
+              "sha": "3c8eb0c4e70b0b3af6471fc0cf3419c7098fdf39"
+            }
+          ],
+          "id": "mcp-commits",
+          "moved": true,
+          "other_new_count": 2,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "mcp-pr-2133",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "hits": [
+            {
+              "html_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/3588",
+              "merged_at": "2026-11-24T21:48:37Z",
+              "number": 3588,
+              "state": "closed",
+              "title": "docs: mark Skills support for Claude and Claude Code in the extension matrix",
+              "updated_at": "2026-11-24T21:48:40Z"
+            }
+          ],
+          "id": "mcp-pulls-updated",
+          "moved": true,
+          "other_new_count": 2,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    },
+    "record": {
+      "checks": {
+        "advanced_since_previous": true,
+        "newest_is_expected": true,
+        "newest_is_yesterday": true,
+        "newest_url_ok": true,
+        "no_failed_steps": true,
+        "no_ots_failed": true,
+        "not_late": true,
+        "sequence_not_regressed": true
+      },
+      "degraded": [],
+      "sources": [
+        {
+          "id": "ho-record",
+          "moved": false,
+          "status": "OK"
+        }
+      ],
+      "verdict": "OK"
+    },
+    "x402-issues": {
+      "degraded": [],
+      "sources": [
+        {
+          "hits": [
+            {
+              "date": "2026-11-25T01:34:06Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/8ab369c13584149311fe1957cfb334956feb8727",
+              "sha": "8ab369c13584149311fe1957cfb334956feb8727"
+            },
+            {
+              "date": "2026-11-24T21:05:11Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/f468c3e62976b11d57e5b8373ae6460688c16498",
+              "sha": "f468c3e62976b11d57e5b8373ae6460688c16498"
+            },
+            {
+              "date": "2026-11-25T01:36:41Z",
+              "hit_terms": [],
+              "html_url": "https://github.com/giskard09/argentum-core/commit/fa7c81dbd8603a719b9368a624fbeeea5e721894",
+              "sha": "fa7c81dbd8603a719b9368a624fbeeea5e721894"
+            }
+          ],
+          "id": "argentum-core-commits",
+          "moved": true,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "hits": [],
+          "id": "argentum-core-releases",
+          "moved": false,
+          "other_new_count": 0,
+          "status": "OK"
+        },
+        {
+          "changes": [],
+          "id": "x402-issue-2291",
+          "moved": false,
+          "status": "OK"
+        },
+        {
+          "changes": [
+            "comments",
+            "last_comment",
+            "updated_at"
+          ],
+          "id": "x402-issue-2332",
+          "moved": true,
+          "status": "OK"
+        },
+        {
+          "changes": [
+            "comments",
+            "last_comment",
+            "updated_at"
+          ],
+          "id": "x402-issue-2357",
+          "moved": true,
+          "status": "OK"
+        }
+      ],
+      "verdict": "MOVED"
+    }
+  },
+  "previous_date": "2026-11-24",
+  "schema": "ho-radar-summary/1"
+}
